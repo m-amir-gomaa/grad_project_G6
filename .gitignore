@@ -1,0 +1,8 @@
+__pycache__/
+.venv/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+data/public/pdf-cache/
+data/private/
+.pytest_cache/
