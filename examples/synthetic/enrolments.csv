@@ -1,0 +1,7 @@
+university_id,student_key,offering_id
+synthetic-university,s-001,CS101-first
+synthetic-university,s-002,CS101-first
+synthetic-university,s-003,CS101-first
+synthetic-university,s-003,MATH-repeat
+synthetic-university,s-001,CS102-second
+synthetic-university,s-001,CS103-summer

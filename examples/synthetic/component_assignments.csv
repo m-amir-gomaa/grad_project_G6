@@ -1,0 +1,10 @@
+university_id,student_key,offering_id,component,section_key
+synthetic-university,s-001,CS101-first,lecture,all
+synthetic-university,s-001,CS101-first,lab,A
+synthetic-university,s-002,CS101-first,lecture,all
+synthetic-university,s-002,CS101-first,lab,A
+synthetic-university,s-003,CS101-first,lecture,all
+synthetic-university,s-003,CS101-first,lab,B
+synthetic-university,s-003,MATH-repeat,lecture,all
+synthetic-university,s-001,CS102-second,lecture,all
+synthetic-university,s-001,CS103-summer,lecture,all

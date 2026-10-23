@@ -1,0 +1,574 @@
+{
+  "result": "passed",
+  "savedNativeReopened": true,
+  "nativeSha256": "ce07d436f5a833622a11d821333b1ce0e9eed2f4e546a826dbd919ae2c5de770",
+  "primaryScreens": [
+    "01-students",
+    "02-generate",
+    "03-schedule"
+  ],
+  "supportingFrames": 24,
+  "components": 3,
+  "colorVariables": 15,
+  "observedTransitions": [
+    {
+      "from": "14-empty-students",
+      "to": "04-add-student",
+      "action": "إضافة طالب",
+      "node": 1237,
+      "observedRect": [
+        480.9555358886719,
+        336.18890380859375,
+        561.5555419921875,
+        357.6822204589844
+      ],
+      "verifiedFrame": 128
+    },
+    {
+      "from": "04-add-student",
+      "to": "04-selected-first",
+      "action": "اختيار برمجة 1",
+      "node": 1193,
+      "observedRect": [
+        325.1288757324219,
+        216.63221740722656,
+        618.87109375,
+        243.49888610839844
+      ],
+      "verifiedFrame": 156
+    },
+    {
+      "from": "04-selected-first",
+      "to": "04-selected-two",
+      "action": "اختيار رياضيات 1",
+      "node": 1196,
+      "observedRect": [
+        325.1288757324219,
+        251.5588836669922,
+        618.87109375,
+        278.425537109375
+      ],
+      "verifiedFrame": 185
+    },
+    {
+      "from": "04-selected-two",
+      "to": "01-students",
+      "action": "حفظ الطالب",
+      "node": 1200,
+      "observedRect": [
+        538.2711181640625,
+        359.9211120605469,
+        618.87109375,
+        381.4144592285156
+      ],
+      "verifiedFrame": 12
+    },
+    {
+      "from": "01-students",
+      "to": "05-csv-preview",
+      "action": "رفع ملف CSV",
+      "node": 1180,
+      "observedRect": [
+        534.6888427734375,
+        249.32000732421875,
+        615.2888793945312,
+        270.8133544921875
+      ],
+      "verifiedFrame": 215
+    },
+    {
+      "from": "05-csv-preview",
+      "to": "01-students",
+      "action": "إضافة الطلاب",
+      "node": 1203,
+      "observedRect": [
+        538.2711181640625,
+        359.9211120605469,
+        618.87109375,
+        381.4144592285156
+      ],
+      "verifiedFrame": 12
+    },
+    {
+      "from": "01-students",
+      "to": "02-generate",
+      "action": "التالي",
+      "node": 1181,
+      "observedRect": [
+        239.15554809570312,
+        425.74444580078125,
+        319.75555419921875,
+        447.23779296875
+      ],
+      "verifiedFrame": 51
+    },
+    {
+      "from": "02-generate",
+      "to": "11-running",
+      "action": "إنشاء الجدول",
+      "node": 1183,
+      "observedRect": [
+        431.6999816894531,
+        356.7866516113281,
+        512.2999877929688,
+        378.2799987792969
+      ],
+      "verifiedFrame": 444
+    },
+    {
+      "from": "11-running",
+      "to": "03-schedule",
+      "trigger": "afterDelay",
+      "verifiedFrame": 77,
+      "syntheticNavigationOnly": true
+    },
+    {
+      "from": "03-schedule",
+      "to": "13-schedule-year2",
+      "action": "السنة الثانية",
+      "node": 1186,
+      "observedRect": [
+        475.58221435546875,
+        208.12445068359375,
+        586.631103515625,
+        234.99110412597656
+      ],
+      "verifiedFrame": 554
+    },
+    {
+      "from": "13-schedule-year2",
+      "to": "13-schedule-year3",
+      "action": "السنة الثالثة",
+      "node": 1241,
+      "observedRect": [
+        357.368896484375,
+        208.12445068359375,
+        468.4177551269531,
+        234.99110412597656
+      ],
+      "verifiedFrame": 599
+    },
+    {
+      "from": "13-schedule-year3",
+      "to": "13-schedule-year4",
+      "action": "السنة الرابعة",
+      "node": 1249,
+      "observedRect": [
+        239.15554809570312,
+        208.12445068359375,
+        350.2044372558594,
+        234.99110412597656
+      ],
+      "verifiedFrame": 644
+    },
+    {
+      "from": "13-schedule-year4",
+      "to": "03-schedule",
+      "action": "السنة الأولى",
+      "node": 1254,
+      "observedRect": [
+        593.7955322265625,
+        208.12445068359375,
+        704.844482421875,
+        234.99110412597656
+      ],
+      "verifiedFrame": 77
+    },
+    {
+      "from": "03-schedule",
+      "to": "10-download",
+      "action": "تحميل الجدول",
+      "node": 1189,
+      "observedRect": [
+        239.15554809570312,
+        425.74444580078125,
+        319.75555419921875,
+        447.23779296875
+      ],
+      "verifiedFrame": 415
+    },
+    {
+      "from": "10-download",
+      "to": "16-download-done",
+      "action": "تحميل",
+      "node": 1226,
+      "observedRect": [
+        538.2711181640625,
+        359.9211120605469,
+        618.87109375,
+        381.4144592285156
+      ],
+      "verifiedFrame": 461
+    },
+    {
+      "from": "16-download-done",
+      "to": "03-schedule",
+      "action": "العودة للجدول",
+      "node": 1231,
+      "observedRect": [
+        431.6999816894531,
+        300.814453125,
+        512.2999877929688,
+        322.30780029296875
+      ],
+      "verifiedFrame": 77
+    },
+    {
+      "from": "03-schedule",
+      "to": "06-courses",
+      "action": "الإعدادات",
+      "node": 1185,
+      "observedRect": [
+        239.15554809570312,
+        80.05999755859375,
+        288.4111022949219,
+        99.76222229003906
+      ],
+      "verifiedFrame": 249
+    },
+    {
+      "from": "06-courses",
+      "to": "07-professors",
+      "action": "المدرسون",
+      "node": 1206,
+      "observedRect": [
+        475.58221435546875,
+        177.67555236816406,
+        586.631103515625,
+        202.75111389160156
+      ],
+      "verifiedFrame": 298
+    },
+    {
+      "from": "07-professors",
+      "to": "08-rooms",
+      "action": "القاعات",
+      "node": 1212,
+      "observedRect": [
+        357.368896484375,
+        177.67555236816406,
+        468.4177551269531,
+        202.75111389160156
+      ],
+      "verifiedFrame": 333
+    },
+    {
+      "from": "08-rooms",
+      "to": "09-calendar",
+      "action": "الأيام والساعات",
+      "node": 1218,
+      "observedRect": [
+        239.15554809570312,
+        177.67555236816406,
+        350.2044372558594,
+        202.75111389160156
+      ],
+      "verifiedFrame": 374
+    },
+    {
+      "from": "09-calendar",
+      "to": "02-generate",
+      "action": "حفظ والعودة",
+      "node": 1224,
+      "observedRect": [
+        239.15554809570312,
+        429.32666015625,
+        319.75555419921875,
+        450.82000732421875
+      ],
+      "verifiedFrame": 51
+    },
+    {
+      "from": "02-generate",
+      "to": "11-running",
+      "action": "إنشاء الجدول",
+      "node": 1183,
+      "observedRect": [
+        431.6999816894531,
+        356.7866516113281,
+        512.2999877929688,
+        378.2799987792969
+      ],
+      "verifiedFrame": 444
+    },
+    {
+      "from": "11-running",
+      "to": "02-generate",
+      "action": "إلغاء",
+      "node": 1229,
+      "observedRect": [
+        431.6999816894531,
+        301.26220703125,
+        512.2999877929688,
+        322.75555419921875
+      ],
+      "verifiedFrame": 51
+    },
+    {
+      "from": "12-fix-input",
+      "to": "06-courses",
+      "action": "تحديد المدة",
+      "node": 1234,
+      "observedRect": [
+        507.82220458984375,
+        313.79998779296875,
+        608.1243896484375,
+        333.5022277832031
+      ],
+      "verifiedFrame": 249
+    },
+    {
+      "from": "06-courses",
+      "to": "02-generate",
+      "action": "حفظ والعودة",
+      "node": 1209,
+      "observedRect": [
+        239.15554809570312,
+        429.32666015625,
+        319.75555419921875,
+        450.82000732421875
+      ],
+      "verifiedFrame": 51
+    },
+    {
+      "from": "02-generate",
+      "to": "11-running",
+      "action": "إنشاء الجدول",
+      "node": 1183,
+      "observedRect": [
+        431.6999816894531,
+        356.7866516113281,
+        512.2999877929688,
+        378.2799987792969
+      ],
+      "verifiedFrame": 444
+    },
+    {
+      "from": "03-schedule",
+      "to": "17-edit-calendar",
+      "action": "تعديل الجدول",
+      "node": 1190,
+      "observedRect": [
+        328.71112060546875,
+        425.74444580078125,
+        409.31109619140625,
+        447.23779296875
+      ],
+      "verifiedFrame": 689
+    },
+    {
+      "from": "17-edit-calendar",
+      "to": "18-swap-graph",
+      "action": "بدائل التبديل",
+      "node": 1262,
+      "observedRect": [
+        273.7239990234375,
+        170.33200073242188,
+        362.3840026855469,
+        188.06399536132812
+      ],
+      "verifiedFrame": 777
+    },
+    {
+      "from": "18-swap-graph",
+      "to": "20-swap-blocked",
+      "action": "عرض سبب هياكل البيانات",
+      "node": 1269,
+      "observedRect": [
+        357.95098876953125,
+        211.43800354003906,
+        434.52099609375,
+        250.93199157714844
+      ],
+      "verifiedFrame": 926
+    },
+    {
+      "from": "20-swap-blocked",
+      "to": "22-broader-preview",
+      "action": "اقتراح ترتيب أوسع",
+      "node": 1277,
+      "observedRect": [
+        668.6640014648438,
+        412.1319885253906,
+        741.2039794921875,
+        431.4759826660156
+      ],
+      "verifiedFrame": 1053
+    },
+    {
+      "from": "22-broader-preview",
+      "to": "20-swap-blocked",
+      "action": "إلغاء الاقتراح",
+      "node": 1286,
+      "observedRect": [
+        668.6640014648438,
+        387.9519958496094,
+        741.2039794921875,
+        407.2959899902344
+      ],
+      "verifiedFrame": 926
+    },
+    {
+      "from": "20-swap-blocked",
+      "to": "22-broader-preview",
+      "action": "اقتراح ترتيب أوسع",
+      "node": 1277,
+      "observedRect": [
+        668.6640014648438,
+        412.1319885253906,
+        741.2039794921875,
+        431.4759826660156
+      ],
+      "verifiedFrame": 1053
+    },
+    {
+      "from": "22-broader-preview",
+      "to": "23-broader-applied",
+      "action": "تطبيق كل التغييرات",
+      "node": 1287,
+      "observedRect": [
+        668.6640014648438,
+        416.1619873046875,
+        741.2039794921875,
+        435.5060119628906
+      ],
+      "verifiedFrame": 1096
+    },
+    {
+      "from": "23-broader-applied",
+      "to": "17-edit-calendar",
+      "action": "تراجع عن الترتيب",
+      "node": 1291,
+      "observedRect": [
+        668.6640014648438,
+        379.8919982910156,
+        741.2039794921875,
+        399.2359924316406
+      ],
+      "verifiedFrame": 689
+    },
+    {
+      "from": "17-edit-calendar",
+      "to": "18-swap-graph",
+      "action": "بدائل التبديل",
+      "node": 1262,
+      "observedRect": [
+        273.7239990234375,
+        170.33200073242188,
+        362.3840026855469,
+        188.06399536132812
+      ],
+      "verifiedFrame": 777
+    },
+    {
+      "from": "18-swap-graph",
+      "to": "20-swap-blocked",
+      "action": "عرض سبب هياكل البيانات",
+      "node": 1269,
+      "observedRect": [
+        357.95098876953125,
+        211.43800354003906,
+        434.52099609375,
+        250.93199157714844
+      ],
+      "verifiedFrame": 926
+    },
+    {
+      "from": "20-swap-blocked",
+      "to": "18-swap-graph",
+      "action": "بدائل التبديل",
+      "node": 1276,
+      "observedRect": [
+        273.7239990234375,
+        170.33200073242188,
+        362.3840026855469,
+        188.06399536132812
+      ],
+      "verifiedFrame": 777
+    },
+    {
+      "from": "18-swap-graph",
+      "to": "19-swap-preview",
+      "action": "اختيار قواعد البيانات",
+      "node": 1268,
+      "observedRect": [
+        249.1409912109375,
+        209.42300415039062,
+        325.71099853515625,
+        248.9169921875
+      ],
+      "verifiedFrame": 876
+    },
+    {
+      "from": "19-swap-preview",
+      "to": "21-edit-applied",
+      "action": "تطبيق التبديل",
+      "node": 1273,
+      "observedRect": [
+        668.6640014648438,
+        412.1319885253906,
+        741.2039794921875,
+        431.4759826660156
+      ],
+      "verifiedFrame": 971
+    },
+    {
+      "from": "21-edit-applied",
+      "to": "17-edit-calendar",
+      "action": "تراجع عن التبديل",
+      "node": 1281,
+      "observedRect": [
+        668.6640014648438,
+        371.8320007324219,
+        741.2039794921875,
+        391.1759948730469
+      ],
+      "verifiedFrame": 689
+    },
+    {
+      "from": "17-edit-calendar",
+      "to": "19-swap-preview",
+      "action": "معاينة تبديل قواعد البيانات",
+      "node": 1264,
+      "observedRect": [
+        358.7569885253906,
+        325.8900146484375,
+        410.7439880371094,
+        361.35400390625
+      ],
+      "verifiedFrame": 876
+    },
+    {
+      "from": "19-swap-preview",
+      "to": "21-edit-applied",
+      "action": "تطبيق التبديل",
+      "node": 1273,
+      "observedRect": [
+        668.6640014648438,
+        412.1319885253906,
+        741.2039794921875,
+        431.4759826660156
+      ],
+      "verifiedFrame": 971
+    },
+    {
+      "from": "21-edit-applied",
+      "to": "10-download",
+      "action": "تحميل الجدول",
+      "node": 1282,
+      "observedRect": [
+        668.6640014648438,
+        412.1319885253906,
+        741.2039794921875,
+        431.4759826660156
+      ],
+      "verifiedFrame": 415
+    }
+  ],
+  "limits": [
+    "Native navigation prototype; editing calculations are supplied by the separate tested engine.",
+    "The local browser demonstrator executes actual previews/commits; native links navigate prepared states.",
+    "The three primary screens are the everyday flow; other frames are setup/dialog/state examples.",
+    "Native visual/navigation checks do not establish browser responsiveness or accessibility conformance."
+  ]
+}

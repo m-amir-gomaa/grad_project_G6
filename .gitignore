@@ -6,3 +6,4 @@ __pycache__/
 data/public/pdf-cache/
 data/private/
 .pytest_cache/
+design/.work/

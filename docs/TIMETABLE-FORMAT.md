@@ -1,6 +1,6 @@
 # Default timetable format: Tanta FCI
 
-Use Arabic, right-to-left printable tables. Include university/faculty, academic year, term, programme/level, and week pattern or exam category in the title. Preserve official course codes, group labels, and room names. Store dates/times unambiguously; display the source-style time ranges.
+Use Arabic, right-to-left printable tables. Include the entered title when supplied, term, year level, and applicable week pattern or exam category. Tanta layouts are presentation references; no official logo, signature, approval, or college connection is implied. Use entered course/room names and application course references; an official course code is used only if supplied. Store dates/times unambiguously; display the source-style time ranges.
 
 ## Teaching timetable
 
@@ -10,7 +10,7 @@ The default programme/level view follows the published 2026/2027 grids:
 - Periods, read from right to left: **9–11, 11–1, 1–3, 3–5**, corresponding to 09:00–17:00.
 - Each occupied cell contains activity type, course, lecturer/assistant, and student group/section labels.
 - Days run Saturday through Thursday. First/second/summer calendars can override the permitted dates and periods.
-- Separate odd/even week pages where applicable; show dated exceptions explicitly.
+- Separate odd/even academic-week pages where applicable; show dated exceptions explicitly. Use the entered term's academic week numbers rather than ISO parity. Whole-pattern edits retain these active weeks and validate all their dates. See [editing rules](EDITING.md).
 - Use the source legend for lecture, section, online, and location shading. Keep text labels meaningful without colour.
 
 Reading-order example; placeholder content is illustrative:
@@ -36,6 +36,6 @@ Keep room and candidate allocations internally; provide a room-allocation view a
 
 ## Practical and oral examination timetable
 
-Follow the published matrix: **day/date → course → location → timed candidate batches**, read from right to left. Merge day/course cells across their room rows. Display the authorized candidate assignments in each slot, including exceptions to any displayed number range. Use assessment-specific periods; the inspected example uses consecutive 30-minute columns. [Practical/oral source](https://ci.tanta.edu.eg/files/exam-table-practical2026.pdf).
+Follow the published matrix: **day/date → course → location → timed candidate batches**, read from right to left. Merge day/course cells across their room rows. Derive batches from the entered registrations and show application group labels or local record references; do not require an extra roster of student identities. Use the manually entered assessment durations; the inspected source uses consecutive 30-minute columns only as a presentation example. [Practical/oral source](https://ci.tanta.edu.eg/files/exam-table-practical2026.pdf).
 
-Rendering these layouts is the default output requirement. Importing a table requires review of extracted cells. Blank cells do not establish room availability, and candidate-number ranges do not establish a complete registration list. Approval/footer fields are populated through the university's workflow.
+Render these layouts from generated placements for PDF and PNG/JPEG downloads. Output contains timetable content, without application buttons, approval/signature fields, or posting links. Periods and durations follow the setter's manual setup; the historical periods are a layout example, not assumed availability. Blank source cells do not establish room availability, and historical candidate-number ranges do not supply student registrations.

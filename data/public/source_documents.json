@@ -1,0 +1,1189 @@
+{
+  "retrieved_at": "2026-10-22T11:51:18.055216+00:00",
+  "documents": [
+    {
+      "source_id": "bc2f9f1c07a976e5",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%AA%D8%B1%D9%85%20%20%28%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%29%202025-2026%20-%20Level%201%20.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "جدول امتحانات الميدترم  (لائحة جديدة) 2025-2026 - Level 1 .pdf",
+      "status": "downloaded",
+      "bytes": 118274,
+      "sha256": "2539370b1bbe17634ac75d4eb9c94fda2bf81df410de3a6b219c981d6d9c9cec",
+      "cache_file": "data/public/pdf-cache/bc2f9f1c07a976e5.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "1987f69fc585af3b",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%AA%D8%B1%D9%85%20%20%28%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%29%202025-2026%20-%20Level%201%20AI%20.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "جدول امتحانات الميدترم  (لائحة جديدة) 2025-2026 - Level 1 AI .pdf",
+      "status": "downloaded",
+      "bytes": 121054,
+      "sha256": "ae1e227c20e1359df8b697ef8d6e5da5c1e73f22620f780e04804e6480b09578",
+      "cache_file": "data/public/pdf-cache/1987f69fc585af3b.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "a6ed5d52f45cee20",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%AA%D8%B1%D9%85%20%20%28%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%29%202025-2026%20-%20Level%202%20.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "جدول امتحانات الميدترم  (لائحة جديدة) 2025-2026 - Level 2 .pdf",
+      "status": "downloaded",
+      "bytes": 138019,
+      "sha256": "28372db0f21ea24e1b113c782cae34e18a0cfd15c59475a9bf3bd3f6c21fbd64",
+      "cache_file": "data/public/pdf-cache/a6ed5d52f45cee20.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "f53c128ef9b183fc",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%AA%D8%B1%D9%85%20%20%28%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%29%202025-2026%20-%20Level%202%20AI%20.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "جدول امتحانات الميدترم  (لائحة جديدة) 2025-2026 - Level 2 AI .pdf",
+      "status": "downloaded",
+      "bytes": 134996,
+      "sha256": "66fb34c2c2e30af28ff5534703072e18d9975bd32e6da2261cdc9bf5a4d34ea2",
+      "cache_file": "data/public/pdf-cache/f53c128ef9b183fc.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "ae3685d20f00e783",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%AA%D8%B1%D9%85%20%20%28%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%29%202025-2026%20-%20Level%203%20CS%20%20.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "جدول امتحانات الميدترم  (لائحة جديدة) 2025-2026 - Level 3 CS  .pdf",
+      "status": "downloaded",
+      "bytes": 132391,
+      "sha256": "0a21b9d2032809f07b5f63aeb1c28ce8792ff33d1256919e315303010d964de6",
+      "cache_file": "data/public/pdf-cache/ae3685d20f00e783.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "d69959faaccdcd22",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%AA%D8%B1%D9%85%20%20%28%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%29%202025-2026%20-%20Level%203%20IS%20.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "جدول امتحانات الميدترم  (لائحة جديدة) 2025-2026 - Level 3 IS .pdf",
+      "status": "downloaded",
+      "bytes": 132022,
+      "sha256": "c721191d43678278284c0ab4876a32f66478b43158b832368b1183b6494c6ee2",
+      "cache_file": "data/public/pdf-cache/d69959faaccdcd22.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "a499ca9c4d8a8935",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%AA%D8%B1%D9%85%20%20%28%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%29%202025-2026%20-%20Level%203%20IT%20.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "جدول امتحانات الميدترم  (لائحة جديدة) 2025-2026 - Level 3 IT .pdf",
+      "status": "downloaded",
+      "bytes": 145018,
+      "sha256": "c3b9e616f5aa3d235d6aec59f5645157d8eab997a9872545a639bc065d258f98",
+      "cache_file": "data/public/pdf-cache/a499ca9c4d8a8935.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "7e7462ec74f6b58e",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%AA%D8%B1%D9%85%20%20%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%202025-2026.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "جدول امتحانات الميدترم  لائحة جديدة 2025-2026.pdf",
+      "status": "downloaded",
+      "bytes": 302375,
+      "sha256": "6b3c6bc1129a0736ba5f284872043662dbc3ace0fa0473d31a7d2595989271ba",
+      "cache_file": "data/public/pdf-cache/7e7462ec74f6b58e.pdf",
+      "scan": {
+        "pages": 8,
+        "pages_without_location_header": 8,
+        "ocr_pages": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "e30a678ad31c7b9d",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%AA%D8%B1%D9%85%20%D8%A7%D9%84%D8%A3%D9%88%D9%84%20%28%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D9%82%D8%AF%D9%8A%D9%85%D8%A9%29%202025-2026%20%20-%20Level%201%20.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "جدول امتحانات الميدترم الأول (لائحة قديمة) 2025-2026  - Level 1 .pdf",
+      "status": "downloaded",
+      "bytes": 138166,
+      "sha256": "25a5344866a621aec3bcad45454469e7c43b8cc5e1e3917f6dc50d1f97ed304d",
+      "cache_file": "data/public/pdf-cache/e30a678ad31c7b9d.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "35b1cd47ff74673e",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%AA%D8%B1%D9%85%20%D8%A7%D9%84%D8%A3%D9%88%D9%84%20%28%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D9%82%D8%AF%D9%8A%D9%85%D8%A9%29%202025-2026%20-%20Level%202%20.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "جدول امتحانات الميدترم الأول (لائحة قديمة) 2025-2026 - Level 2 .pdf",
+      "status": "downloaded",
+      "bytes": 138500,
+      "sha256": "e02add550d6ec220024f5269bfc56c2a926bd236ad2972567097e2d6e8a49f87",
+      "cache_file": "data/public/pdf-cache/35b1cd47ff74673e.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "c791bb7a7f6a706a",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%AA%D8%B1%D9%85%20%D8%A7%D9%84%D8%A3%D9%88%D9%84%20%28%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D9%82%D8%AF%D9%8A%D9%85%D8%A9%29%202025-2026%20-%20Level%203%20CS%20.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "جدول امتحانات الميدترم الأول (لائحة قديمة) 2025-2026 - Level 3 CS .pdf",
+      "status": "downloaded",
+      "bytes": 130856,
+      "sha256": "0cce5894b38d92015c1add583fee4099b0433ad650ff7c8269abe22edaf7c586",
+      "cache_file": "data/public/pdf-cache/c791bb7a7f6a706a.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "41fae8f7631df689",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%AA%D8%B1%D9%85%20%D8%A7%D9%84%D8%A3%D9%88%D9%84%20%28%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D9%82%D8%AF%D9%8A%D9%85%D8%A9%29%202025-2026%20-%20Level%203%20IS%20.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "جدول امتحانات الميدترم الأول (لائحة قديمة) 2025-2026 - Level 3 IS .pdf",
+      "status": "downloaded",
+      "bytes": 131349,
+      "sha256": "3e4dd627ba17ea82e2c8e6a88e121dc3cab4402e7ea3a5b8d40aa79b1d3e9c02",
+      "cache_file": "data/public/pdf-cache/41fae8f7631df689.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "fd64c8ebb3eda765",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%AA%D8%B1%D9%85%20%D8%A7%D9%84%D8%A3%D9%88%D9%84%20%28%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D9%82%D8%AF%D9%8A%D9%85%D8%A9%29%202025-2026%20-%20Level%203%20IT%20.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "جدول امتحانات الميدترم الأول (لائحة قديمة) 2025-2026 - Level 3 IT .pdf",
+      "status": "downloaded",
+      "bytes": 144058,
+      "sha256": "7c69c1a23df255d9970e3f097e8db9aa0b5017e1e9f3c82b2ed60232beb4c2e3",
+      "cache_file": "data/public/pdf-cache/fd64c8ebb3eda765.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "a1036371481a6585",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%AA%D8%B1%D9%85%20%D8%A7%D9%84%D8%A3%D9%88%D9%84%20%28%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D9%82%D8%AF%D9%8A%D9%85%D8%A9%29%202025-2026%20-%20Level%204%20CS%20.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "جدول امتحانات الميدترم الأول (لائحة قديمة) 2025-2026 - Level 4 CS .pdf",
+      "status": "downloaded",
+      "bytes": 148543,
+      "sha256": "88cfaa052d8caf87761d949cd97f03ba5e7885c76d4d71195f9b1f048faf058e",
+      "cache_file": "data/public/pdf-cache/a1036371481a6585.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "5afe191b753e8624",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%AA%D8%B1%D9%85%20%D8%A7%D9%84%D8%A3%D9%88%D9%84%20%28%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D9%82%D8%AF%D9%8A%D9%85%D8%A9%29%202025-2026%20-%20Level%204%20IS%20.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "جدول امتحانات الميدترم الأول (لائحة قديمة) 2025-2026 - Level 4 IS .pdf",
+      "status": "downloaded",
+      "bytes": 130971,
+      "sha256": "6eeaee6016602fe43c99b04f2d97feae9e48a457d576ab8f92b60aad284bb713",
+      "cache_file": "data/public/pdf-cache/5afe191b753e8624.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "aa189aa487e50597",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%AA%D8%B1%D9%85%20%D8%A7%D9%84%D8%A3%D9%88%D9%84%20%28%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D9%82%D8%AF%D9%8A%D9%85%D8%A9%29%202025-2026%20-%20Level%204%20IT%20.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "جدول امتحانات الميدترم الأول (لائحة قديمة) 2025-2026 - Level 4 IT .pdf",
+      "status": "downloaded",
+      "bytes": 152331,
+      "sha256": "f4d541784fedeee1a9a89a9351327b0e23305ce686f3492bd30b1712174889d8",
+      "cache_file": "data/public/pdf-cache/aa189aa487e50597.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "ae1659db6d9586bc",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%AA%D8%B1%D9%85%20%D8%A7%D9%84%D8%A3%D9%88%D9%84%20%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D9%82%D8%AF%D9%8A%D9%85%D8%A9%202025-2026.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "جدول امتحانات الميدترم الأول لائحة قديمة 2025-2026.pdf",
+      "status": "downloaded",
+      "bytes": 331833,
+      "sha256": "1cee1235997521f328c53df9f4751a7b6a42ce4475dc8692351cd29df6d5307e",
+      "cache_file": "data/public/pdf-cache/ae1659db6d9586bc.pdf",
+      "scan": {
+        "pages": 8,
+        "pages_without_location_header": 8,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "0bc9d674975f0f08",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/1st_term_exam_tables/%D8%A3%D9%88%D9%84%D9%89%20%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC%20%D9%85%D9%85%D9%8A%D8%B2.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "أولى برنامج مميز.pdf",
+      "status": "downloaded",
+      "bytes": 342199,
+      "sha256": "e930188fa40147d224bbe763607c39439f3b1b138fcd8e55a0f0a8b5e23eee99",
+      "cache_file": "data/public/pdf-cache/0bc9d674975f0f08.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "2b8df9cef864774b",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/1st_term_exam_tables/%D8%A3%D9%88%D9%84%D9%89%20%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "أولى لائحة جديدة.pdf",
+      "status": "downloaded",
+      "bytes": 344087,
+      "sha256": "bfb83c3285a1c1109af650b52ce0b2581f3800a66b42889848865c955b3595a0",
+      "cache_file": "data/public/pdf-cache/2b8df9cef864774b.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "b692172a7d38d0fa",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/1st_term_exam_tables/%D8%A3%D9%88%D9%84%D9%89%20%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D9%82%D8%AF%D9%8A%D9%85%D8%A9.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "أولى لائحة قديمة.pdf",
+      "status": "downloaded",
+      "bytes": 320695,
+      "sha256": "e8595f0cfddefdc1a88dda0bfcf9ceb95bd938cbcea2d7d0d0353c00827da129",
+      "cache_file": "data/public/pdf-cache/b692172a7d38d0fa.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "8fdc9a3e068bea1b",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/1st_term_exam_tables/%D8%AB%D8%A7%D9%86%D9%8A%D8%A9%20%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC%20%D9%85%D9%85%D9%8A%D8%B2.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "ثانية برنامج مميز.pdf",
+      "status": "downloaded",
+      "bytes": 340823,
+      "sha256": "14d6b1f0f2e9b540a4d9e2f85362936fde05ae33b56e865c22e9714314ddbf2e",
+      "cache_file": "data/public/pdf-cache/8fdc9a3e068bea1b.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "5c44ea50f3c8ddd8",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/1st_term_exam_tables/%D8%AB%D8%A7%D9%86%D9%8A%D8%A9%20%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "ثانية لائحة جديدة.pdf",
+      "status": "downloaded",
+      "bytes": 335415,
+      "sha256": "9f81103e6c4b0e2bfe0daf5004bbbae18499418ee2b472d9164ed240b09377ad",
+      "cache_file": "data/public/pdf-cache/5c44ea50f3c8ddd8.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "1906325cafd75733",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/1st_term_exam_tables/%D8%AB%D8%A7%D9%86%D9%8A%D8%A9%20%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D9%82%D8%AF%D9%8A%D9%85%D8%A9.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "ثانية لائحة قديمة.pdf",
+      "status": "downloaded",
+      "bytes": 319575,
+      "sha256": "3f62406180ef7bc170440d9ac479d2f7ea55f7bfd953147657cb51a588e44907",
+      "cache_file": "data/public/pdf-cache/1906325cafd75733.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "c8374467ecaad884",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/1st_term_exam_tables/%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%20CS%20%D8%AB%D8%A7%D9%84%D8%AB%D8%A9.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "لائحة جديدة CS ثالثة.pdf",
+      "status": "downloaded",
+      "bytes": 303415,
+      "sha256": "fbc6a2726fd7477582f03de7375a92d7e476f0fa59de7e50403912f1b5cd6bff",
+      "cache_file": "data/public/pdf-cache/c8374467ecaad884.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "fbe592d8de0b6621",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/1st_term_exam_tables/%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%20IS%20%D8%AB%D8%A7%D9%84%D8%AB%D8%A9.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "لائحة جديدة IS ثالثة.pdf",
+      "status": "downloaded",
+      "bytes": 293559,
+      "sha256": "2d3424c96a1b1cb38654e78d0b92de4f8f9b24d028a89a0ee95abbc588a171ad",
+      "cache_file": "data/public/pdf-cache/fbe592d8de0b6621.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "228946560eb55668",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/1st_term_exam_tables/%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9%20IT%20%D8%AB%D8%A7%D9%84%D8%AB%D8%A9.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "لائحة جديدة IT ثالثة.pdf",
+      "status": "downloaded",
+      "bytes": 297655,
+      "sha256": "76d4048fcb2583a661324adac04878bc47b61b7f5f59ed98e1734611ce673feb",
+      "cache_file": "data/public/pdf-cache/228946560eb55668.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "ecf2180605ff9818",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/1st_term_exam_tables/%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D9%82%D8%AF%D9%8A%D9%85%D8%A9%20CS%20%D8%AB%D8%A7%D9%84%D8%AB%D8%A9.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "لائحة قديمة CS ثالثة.pdf",
+      "status": "downloaded",
+      "bytes": 328151,
+      "sha256": "96c4bad6b36caa74f137673413d50b2de32c51e40e42dcf28405965f40ce7d6f",
+      "cache_file": "data/public/pdf-cache/ecf2180605ff9818.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "20e2f622ca618560",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/1st_term_exam_tables/%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D9%82%D8%AF%D9%8A%D9%85%D8%A9%20IS%20%D8%AB%D8%A7%D9%84%D8%AB%D8%A9.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "لائحة قديمة IS ثالثة.pdf",
+      "status": "downloaded",
+      "bytes": 344247,
+      "sha256": "9159af9d5d72ca8880b1d89c84e9c885213879af8920eb06403e63d71a9d28fa",
+      "cache_file": "data/public/pdf-cache/20e2f622ca618560.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "6dc596ec2a609765",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/1st_term_exam_tables/%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D9%82%D8%AF%D9%8A%D9%85%D8%A9%20IT%20%D8%AB%D8%A7%D9%84%D8%AB%D8%A9.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "لائحة قديمة IT ثالثة.pdf",
+      "status": "downloaded",
+      "bytes": 318103,
+      "sha256": "121c622ecee0412fc55da6c4ea456e56c2939cdd486f21f15e8815faa17c6bb6",
+      "cache_file": "data/public/pdf-cache/6dc596ec2a609765.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "d28b90a93d43ebd7",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/1st_term_exam_tables/CS%20%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "CS رابعة.pdf",
+      "status": "downloaded",
+      "bytes": 312279,
+      "sha256": "84b93f313b28f99e7a9bd55ad512efbeb9435f107528cb6e44e06d2626c70507",
+      "cache_file": "data/public/pdf-cache/d28b90a93d43ebd7.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "a978321304b791b9",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/1st_term_exam_tables/IS%20%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "IS رابعة.pdf",
+      "status": "downloaded",
+      "bytes": 314167,
+      "sha256": "003bcf61455278473050e8beea44b7d13e832f4fd9b873365e3eeeb620562902",
+      "cache_file": "data/public/pdf-cache/a978321304b791b9.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "ac9a2ed115e9819b",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/1st_term_exam_tables/IT%20%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "IT رابعة.pdf",
+      "status": "downloaded",
+      "bytes": 310263,
+      "sha256": "d86932dcd8be0ea775f1a0d07c0ec0850fa08fb6b41601e7523cb3afeec5dd3a",
+      "cache_file": "data/public/pdf-cache/ac9a2ed115e9819b.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "34fb3081d411962f",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_mid_term/%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%AF%D8%AA%D8%B1%D9%85%20%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%202025-2026%20%20%D8%AA%D8%B9%D8%AF%D9%8A%D9%84.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "جدول امتحانات الميدترم الثاني 2025-2026  تعديل.pdf",
+      "status": "downloaded",
+      "bytes": 402642,
+      "sha256": "20c57e94336bb1817cccbda5e835377c360633d4a48b45184e260bfc047c6bd7",
+      "cache_file": "data/public/pdf-cache/34fb3081d411962f.pdf",
+      "scan": {
+        "pages": 10,
+        "pages_without_location_header": 10,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "b4944e756b43920c",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_mid_term/sem2mid2526_level1.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "sem2mid2526_level1.pdf",
+      "status": "downloaded",
+      "bytes": 184506,
+      "sha256": "5353728df341e057068c0e5847eaa2e1be8356b033b006a33940c52b9724379e",
+      "cache_file": "data/public/pdf-cache/b4944e756b43920c.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "5e7815228d081eee",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_mid_term/sem2mid2526_level1ai.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "sem2mid2526_level1ai.pdf",
+      "status": "downloaded",
+      "bytes": 183340,
+      "sha256": "54b96b461488fb343634e4e0d98b940c65cc4e59859b6c4050c339b73db2700a",
+      "cache_file": "data/public/pdf-cache/5e7815228d081eee.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "fb485b89c970c8f7",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_mid_term/sem2mid2526_level2.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "sem2mid2526_level2.pdf",
+      "status": "downloaded",
+      "bytes": 183054,
+      "sha256": "7b03e07963ec70b18544728c8cfe5c098384f39d0eb2e935c63ac09897222e25",
+      "cache_file": "data/public/pdf-cache/fb485b89c970c8f7.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "5a3dd3d6521526e1",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_mid_term/sem2mid2526_level2ai.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "sem2mid2526_level2ai.pdf",
+      "status": "downloaded",
+      "bytes": 183623,
+      "sha256": "f6b3ed3d6925b5c1bf23aa3c466b2d4a7d965d52eee5413fe16f0dde2762c791",
+      "cache_file": "data/public/pdf-cache/5a3dd3d6521526e1.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "3a8ccd93b721d4a0",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_mid_term/sem2mid2526_level3cs.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "sem2mid2526_level3cs.pdf",
+      "status": "downloaded",
+      "bytes": 250843,
+      "sha256": "3c2413e39ea3aa6e1c2b355187f2f04cc38b0c8e499a48148b23ec24d2767ca9",
+      "cache_file": "data/public/pdf-cache/3a8ccd93b721d4a0.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "541ed2757c6a3211",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_mid_term/sem2mid2526_level3is.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "sem2mid2526_level3is.pdf",
+      "status": "downloaded",
+      "bytes": 212057,
+      "sha256": "304f990b6ad481f8ab7522e734c82b362c909009a4418c0143c3e2efee87af25",
+      "cache_file": "data/public/pdf-cache/541ed2757c6a3211.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "394f155db7845551",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_mid_term/sem2mid2526_level3it.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "sem2mid2526_level3it.pdf",
+      "status": "downloaded",
+      "bytes": 184129,
+      "sha256": "9059bc4619beaf33fe9071b1d7a986b9e9d4ea3e728086d4e26551cabce23fc0",
+      "cache_file": "data/public/pdf-cache/394f155db7845551.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "d032516335e5ee71",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_mid_term/sem2mid2526_level4cs.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "sem2mid2526_level4cs.pdf",
+      "status": "downloaded",
+      "bytes": 211226,
+      "sha256": "8f6f4def1b09f9a4e9f7faa36a521e043b2b5146358454e77ac0c4682cbc0b9d",
+      "cache_file": "data/public/pdf-cache/d032516335e5ee71.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "7605c0f38223c8cb",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_mid_term/sem2mid2526_level4is.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "sem2mid2526_level4is.pdf",
+      "status": "downloaded",
+      "bytes": 182489,
+      "sha256": "ee8ef376f6295046a252a7d78d130fea17939e8a6b46a47ae8ecf5af28993719",
+      "cache_file": "data/public/pdf-cache/7605c0f38223c8cb.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "cabc4602e2392fcc",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_mid_term/sem2mid2526_level4it.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "sem2mid2526_level4it.pdf",
+      "status": "downloaded",
+      "bytes": 182352,
+      "sha256": "9656ac10fcf58debfe540cb9a9d724be3434e87c1966dec8131debc611f75cf0",
+      "cache_file": "data/public/pdf-cache/cabc4602e2392fcc.pdf",
+      "scan": {
+        "pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "8e1b5f7bde309dfb",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_term_exam_tables/%D8%AF%D9%88%D8%A7%D8%B9%D9%8A%20%D8%AA%D8%AE%D8%B1%D8%AC.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "دواعي تخرج.pdf",
+      "status": "downloaded",
+      "bytes": 393723,
+      "sha256": "be93db0e5e19485287106ad432d35a62e17872a28d40742b74836a00b1d3ce4e",
+      "cache_file": "data/public/pdf-cache/8e1b5f7bde309dfb.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "9f68aceee6f57419",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_term_exam_tables/%D9%84%D8%A7%D8%A6%D8%AD%D8%A9%20%D9%82%D8%AF%D9%8A%D9%85%D8%A9.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "لائحة قديمة.pdf",
+      "status": "downloaded",
+      "bytes": 390673,
+      "sha256": "9c7479ec2c3a8a664ab7fcf07a054740c90c487c625c4e323de8e8564a593465",
+      "cache_file": "data/public/pdf-cache/9f68aceee6f57419.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "7a2f6bd337c51902",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_term_exam_tables/Level-2-AI.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "Level-2-AI.pdf",
+      "status": "downloaded",
+      "bytes": 362768,
+      "sha256": "afb040e022c984778aa06af119b2b187b810c5ce7f352bcf211e9aaef641a620",
+      "cache_file": "data/public/pdf-cache/7a2f6bd337c51902.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "7668e0744a813f17",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_term_exam_tables/Level_1.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "Level_1.pdf",
+      "status": "downloaded",
+      "bytes": 374963,
+      "sha256": "4b779f28b5d7be05f08a999540ffe8f4e7960e269f4962074980389acac9cd13",
+      "cache_file": "data/public/pdf-cache/7668e0744a813f17.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "321897190af146a7",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_term_exam_tables/Level_1_AI.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "Level_1_AI.pdf",
+      "status": "downloaded",
+      "bytes": 374574,
+      "sha256": "4956ce6931e14789b7f291a817d4077739607b41044796a1abc39c302a5580fc",
+      "cache_file": "data/public/pdf-cache/321897190af146a7.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "aec6fa1358d61492",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_term_exam_tables/Level_2.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "Level_2.pdf",
+      "status": "downloaded",
+      "bytes": 355409,
+      "sha256": "9990bc046b5be575eacc801c10553806605c089192ea653be819412e9bdc8489",
+      "cache_file": "data/public/pdf-cache/aec6fa1358d61492.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "75f7b6cb201829be",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_term_exam_tables/Level_3_CS.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "Level_3_CS.pdf",
+      "status": "downloaded",
+      "bytes": 365938,
+      "sha256": "06814a9e3912db135f074e8be652d56ad8cc62f1fdfaf141930f08f5f82d55c9",
+      "cache_file": "data/public/pdf-cache/75f7b6cb201829be.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "50efeafc23b3e724",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_term_exam_tables/Level_3_IS.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "Level_3_IS.pdf",
+      "status": "downloaded",
+      "bytes": 368850,
+      "sha256": "58374cdf3b7a119c89ce213c8b565e3f07326173542e4f3f908b2ab767c7e520",
+      "cache_file": "data/public/pdf-cache/50efeafc23b3e724.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "5a0e7f5fb588bf39",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_term_exam_tables/Level_3_IT.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "Level_3_IT.pdf",
+      "status": "downloaded",
+      "bytes": 350257,
+      "sha256": "e1f148ae9441414ca2404567e46ccac83c7945c3a331a75b384b2933baa134a6",
+      "cache_file": "data/public/pdf-cache/5a0e7f5fb588bf39.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "c7edd262ad7792e8",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_term_exam_tables/Level_4_CS.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "Level_4_CS.pdf",
+      "status": "downloaded",
+      "bytes": 345267,
+      "sha256": "492818381909e07e82e4e450baf79623ca3586e0de01ab4e397d45799e4c070a",
+      "cache_file": "data/public/pdf-cache/c7edd262ad7792e8.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "0f5bce3115eefe37",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_term_exam_tables/Level_4_IS.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "Level_4_IS.pdf",
+      "status": "downloaded",
+      "bytes": 359570,
+      "sha256": "9de7b01b5a2f5bc27b4bab602eb018c3c88dae38008c058e650931eb47cd078b",
+      "cache_file": "data/public/pdf-cache/0f5bce3115eefe37.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "db19af93a924f36c",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_exams/2nd_term_exam_tables/Level_4_IT.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "Level_4_IT.pdf",
+      "status": "downloaded",
+      "bytes": 355600,
+      "sha256": "40f7baf503bab53ffbe567c733f455a250703b482be8808f4777708122086d10",
+      "cache_file": "data/public/pdf-cache/db19af93a924f36c.pdf",
+      "scan": {
+        "pages": 1,
+        "ocr_pages": 1,
+        "pages_without_location_header": 1,
+        "location_observations": 0
+      }
+    },
+    {
+      "source_id": "c235dc7aaffc4cd0",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_tables/summer/%D8%A7%D9%84%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85.pdf",
+      "category": "teaching",
+      "index_page": "https://ci.tanta.edu.eg/stu_study_tables.aspx",
+      "filename": "الجدول العام.pdf",
+      "status": "downloaded",
+      "bytes": 421755,
+      "sha256": "6b310880e150397cfd1351e1b791ad05bf46b752ffafd680471fd4ff990b7463",
+      "cache_file": "data/public/pdf-cache/c235dc7aaffc4cd0.pdf",
+      "scan": {
+        "pages": 10,
+        "pages_without_location_header": 9,
+        "location_observations": 116
+      }
+    },
+    {
+      "source_id": "a927fbdba4b9bd4e",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_tables/summer/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%88%D9%8A%20%D8%A7%D9%84%D8%A3%D9%88%D9%84.pdf",
+      "category": "teaching",
+      "index_page": "https://ci.tanta.edu.eg/stu_study_tables.aspx",
+      "filename": "المستوي الأول.pdf",
+      "status": "downloaded",
+      "bytes": 559967,
+      "sha256": "78e3cf1678271d218d332c27fe65b05146f084b676641f38f728db97b24bd3eb",
+      "cache_file": "data/public/pdf-cache/a927fbdba4b9bd4e.pdf",
+      "scan": {
+        "pages": 2,
+        "pages_without_location_header": 2,
+        "location_observations": 15
+      }
+    },
+    {
+      "source_id": "cf557145e4f63f42",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_tables/summer/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%88%D9%8A%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB.pdf",
+      "category": "teaching",
+      "index_page": "https://ci.tanta.edu.eg/stu_study_tables.aspx",
+      "filename": "المستوي الثالث.pdf",
+      "status": "downloaded",
+      "bytes": 562228,
+      "sha256": "c925d424eb7003631e53a2437163451dddfcd6c9496005652969ee5d502ac05e",
+      "cache_file": "data/public/pdf-cache/cf557145e4f63f42.pdf",
+      "scan": {
+        "pages": 2,
+        "pages_without_location_header": 2,
+        "location_observations": 30
+      }
+    },
+    {
+      "source_id": "f1cd7055c38992f9",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_tables/summer/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%88%D9%8A%20%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A.pdf",
+      "category": "teaching",
+      "index_page": "https://ci.tanta.edu.eg/stu_study_tables.aspx",
+      "filename": "المستوي الثاني.pdf",
+      "status": "downloaded",
+      "bytes": 559778,
+      "sha256": "beb19b8150d51e8b3c61581b81521bce076ef07f514fa9dc5f48b2632bc711f1",
+      "cache_file": "data/public/pdf-cache/f1cd7055c38992f9.pdf",
+      "scan": {
+        "pages": 2,
+        "pages_without_location_header": 2,
+        "location_observations": 14
+      }
+    },
+    {
+      "source_id": "a0a4afa2375a04fe",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_tables/summer/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%88%D9%8A%20%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9.pdf",
+      "category": "teaching",
+      "index_page": "https://ci.tanta.edu.eg/stu_study_tables.aspx",
+      "filename": "المستوي الرابع.pdf",
+      "status": "downloaded",
+      "bytes": 566070,
+      "sha256": "b48dc0a7479f50a65c7597897598426a359998eec722ed5791a32e0d10828693",
+      "cache_file": "data/public/pdf-cache/a0a4afa2375a04fe.pdf",
+      "scan": {
+        "pages": 2,
+        "pages_without_location_header": 2,
+        "location_observations": 46
+      }
+    },
+    {
+      "source_id": "587dfacdee9728e7",
+      "url": "https://ci.tanta.edu.eg/files/2025-2026/stu_tables/summer/%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%84%D9%85%D9%85%D9%8A%D8%B2.pdf",
+      "category": "teaching",
+      "index_page": "https://ci.tanta.edu.eg/stu_study_tables.aspx",
+      "filename": "جدول المميز.pdf",
+      "status": "downloaded",
+      "bytes": 245480,
+      "sha256": "89bef55f772a1fbe6696e12bd67c2de2cc9460c27ea5bcc0810dd8670006bd72",
+      "cache_file": "data/public/pdf-cache/587dfacdee9728e7.pdf",
+      "scan": {
+        "pages": 2,
+        "pages_without_location_header": 2,
+        "location_observations": 6
+      }
+    },
+    {
+      "source_id": "54bab98e7daa1d22",
+      "url": "https://ci.tanta.edu.eg/files/2026-2027/stu_tables/1st-term/%D8%A7%D9%84%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC%20%D8%A7%D9%84%D9%85%D9%85%D9%8A%D8%B2%20%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%88%D9%89%20%D8%A7%D9%84%D8%A3%D9%88%D9%84.pdf",
+      "category": "teaching",
+      "index_page": "https://ci.tanta.edu.eg/stu_study_tables.aspx",
+      "filename": "البرنامج المميز المستوى الأول.pdf",
+      "status": "downloaded",
+      "bytes": 73914,
+      "sha256": "ea7c67ee62f058b767b9601f510054e56602ab5123ccf5073e5c5cbe60dc47cc",
+      "cache_file": "data/public/pdf-cache/54bab98e7daa1d22.pdf",
+      "scan": {
+        "pages": 2,
+        "location_observations": 24
+      }
+    },
+    {
+      "source_id": "bc6b9825aaf7ec69",
+      "url": "https://ci.tanta.edu.eg/files/2026-2027/stu_tables/1st-term/%D8%A7%D9%84%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC%20%D8%A7%D9%84%D9%85%D9%85%D9%8A%D8%B2%20%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%88%D9%89%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB.pdf",
+      "category": "teaching",
+      "index_page": "https://ci.tanta.edu.eg/stu_study_tables.aspx",
+      "filename": "البرنامج المميز المستوى الثالث.pdf",
+      "status": "downloaded",
+      "bytes": 70058,
+      "sha256": "4d74f22d8d1009d4f35db5cd1e5cdd3e02e7212c5201e0298fdbc64422bc0514",
+      "cache_file": "data/public/pdf-cache/bc6b9825aaf7ec69.pdf",
+      "scan": {
+        "pages": 2,
+        "location_observations": 16
+      }
+    },
+    {
+      "source_id": "03fbe25462d2108e",
+      "url": "https://ci.tanta.edu.eg/files/2026-2027/stu_tables/1st-term/%D8%A7%D9%84%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC%20%D8%A7%D9%84%D9%85%D9%85%D9%8A%D8%B2%20%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%88%D9%89%20%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A.pdf",
+      "category": "teaching",
+      "index_page": "https://ci.tanta.edu.eg/stu_study_tables.aspx",
+      "filename": "البرنامج المميز المستوى الثاني.pdf",
+      "status": "downloaded",
+      "bytes": 71273,
+      "sha256": "1c9b1b2b7775349be2a2bcd2cc165a9e2e28cb281cf3c7fde31f86a538037e7b",
+      "cache_file": "data/public/pdf-cache/03fbe25462d2108e.pdf",
+      "scan": {
+        "pages": 2,
+        "location_observations": 18
+      }
+    },
+    {
+      "source_id": "5db2a565c792b503",
+      "url": "https://ci.tanta.edu.eg/files/2026-2027/stu_tables/1st-term/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%88%D9%89%20%D8%A7%D9%84%D8%A3%D9%88%D9%84.pdf",
+      "category": "teaching",
+      "index_page": "https://ci.tanta.edu.eg/stu_study_tables.aspx",
+      "filename": "المستوى الأول.pdf",
+      "status": "downloaded",
+      "bytes": 93818,
+      "sha256": "c9446d41d57ffbfc87e636470e720a620215d92edd25a9ac7232007d8898a6fc",
+      "cache_file": "data/public/pdf-cache/5db2a565c792b503.pdf",
+      "scan": {
+        "pages": 2,
+        "location_observations": 36
+      }
+    },
+    {
+      "source_id": "73fe32dc788abe98",
+      "url": "https://ci.tanta.edu.eg/files/2026-2027/stu_tables/1st-term/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%88%D9%89%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%20CS.pdf",
+      "category": "teaching",
+      "index_page": "https://ci.tanta.edu.eg/stu_study_tables.aspx",
+      "filename": "المستوى الثالث CS.pdf",
+      "status": "downloaded",
+      "bytes": 102231,
+      "sha256": "beadf0dfdd7fc312e28bc63b829741deec717a8ebbc8da13e9909fa246b58b83",
+      "cache_file": "data/public/pdf-cache/73fe32dc788abe98.pdf",
+      "scan": {
+        "pages": 2,
+        "location_observations": 43
+      }
+    },
+    {
+      "source_id": "3068c23fe101f92c",
+      "url": "https://ci.tanta.edu.eg/files/2026-2027/stu_tables/1st-term/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%88%D9%89%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%20IS.pdf",
+      "category": "teaching",
+      "index_page": "https://ci.tanta.edu.eg/stu_study_tables.aspx",
+      "filename": "المستوى الثالث IS.pdf",
+      "status": "downloaded",
+      "bytes": 82788,
+      "sha256": "11622be4a1a7aec2675e7ae3c02039b4b5ccce87e0c15740d3cc2541c92226f2",
+      "cache_file": "data/public/pdf-cache/3068c23fe101f92c.pdf",
+      "scan": {
+        "pages": 2,
+        "location_observations": 32
+      }
+    },
+    {
+      "source_id": "4cd89d4ae9db5df1",
+      "url": "https://ci.tanta.edu.eg/files/2026-2027/stu_tables/1st-term/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%88%D9%89%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%20IT.pdf",
+      "category": "teaching",
+      "index_page": "https://ci.tanta.edu.eg/stu_study_tables.aspx",
+      "filename": "المستوى الثالث IT.pdf",
+      "status": "downloaded",
+      "bytes": 83344,
+      "sha256": "347700b323b76b65b272011a0eacedc10752407907f4e3e87245c82e6508aad1",
+      "cache_file": "data/public/pdf-cache/4cd89d4ae9db5df1.pdf",
+      "scan": {
+        "pages": 2,
+        "location_observations": 30
+      }
+    },
+    {
+      "source_id": "a1baea6f16c4062e",
+      "url": "https://ci.tanta.edu.eg/files/2026-2027/stu_tables/1st-term/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%88%D9%89%20%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A.pdf",
+      "category": "teaching",
+      "index_page": "https://ci.tanta.edu.eg/stu_study_tables.aspx",
+      "filename": "المستوى الثاني.pdf",
+      "status": "downloaded",
+      "bytes": 98624,
+      "sha256": "deb083e2e6cf951ca6631d59ece1820b1403eed666fed7bb857d55f950c31277",
+      "cache_file": "data/public/pdf-cache/a1baea6f16c4062e.pdf",
+      "scan": {
+        "pages": 2,
+        "location_observations": 39
+      }
+    },
+    {
+      "source_id": "ef96918bff940a03",
+      "url": "https://ci.tanta.edu.eg/files/2026-2027/stu_tables/1st-term/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%88%D9%89%20%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%20CS.pdf",
+      "category": "teaching",
+      "index_page": "https://ci.tanta.edu.eg/stu_study_tables.aspx",
+      "filename": "المستوى الرابع CS.pdf",
+      "status": "downloaded",
+      "bytes": 79385,
+      "sha256": "2e7bccb1dfb10ef672c84a7190d83ed565eab5d3acaff929ae947b4c1f1f804e",
+      "cache_file": "data/public/pdf-cache/ef96918bff940a03.pdf",
+      "scan": {
+        "pages": 2,
+        "location_observations": 31
+      }
+    },
+    {
+      "source_id": "d23086a196114c1c",
+      "url": "https://ci.tanta.edu.eg/files/2026-2027/stu_tables/1st-term/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%88%D9%89%20%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%20IS.pdf",
+      "category": "teaching",
+      "index_page": "https://ci.tanta.edu.eg/stu_study_tables.aspx",
+      "filename": "المستوى الرابع IS.pdf",
+      "status": "downloaded",
+      "bytes": 72014,
+      "sha256": "25ef234fe2a1d9c2bc90aada556ca42fc5d69c8aa1f283b645cd7f86ed10e810",
+      "cache_file": "data/public/pdf-cache/d23086a196114c1c.pdf",
+      "scan": {
+        "pages": 2,
+        "location_observations": 25
+      }
+    },
+    {
+      "source_id": "9f0bc2bffcf43b90",
+      "url": "https://ci.tanta.edu.eg/files/2026-2027/stu_tables/1st-term/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%88%D9%89%20%D8%A7%D9%84%D8%B1%D8%A7%D8%A8%D8%B9%20IT.pdf",
+      "category": "teaching",
+      "index_page": "https://ci.tanta.edu.eg/stu_study_tables.aspx",
+      "filename": "المستوى الرابع IT.pdf",
+      "status": "downloaded",
+      "bytes": 75666,
+      "sha256": "8488685d7903f6846129eda7570dde3aee8dc114ecb4165fddbc4c371353cfbb",
+      "cache_file": "data/public/pdf-cache/9f0bc2bffcf43b90.pdf",
+      "scan": {
+        "pages": 2,
+        "location_observations": 25
+      }
+    },
+    {
+      "source_id": "e42f19e5656c037c",
+      "url": "https://ci.tanta.edu.eg/files/exam-table-practical2026.pdf",
+      "category": "examinations",
+      "index_page": "https://ci.tanta.edu.eg/stu-exam-tables.aspx",
+      "filename": "exam-table-practical2026.pdf",
+      "status": "downloaded",
+      "bytes": 1481172,
+      "sha256": "9901e385ae561db0c1aed21d109fd39cc0018f36748080e4b969e3f034bdaef8",
+      "cache_file": "data/public/pdf-cache/e42f19e5656c037c.pdf",
+      "scan": {
+        "pages": 17,
+        "location_observations": 102
+      }
+    }
+  ]
+}

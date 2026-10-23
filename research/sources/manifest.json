@@ -1,0 +1,26 @@
+[
+  {
+    "file": "tanta-student-guide-26.pdf",
+    "source_url": "https://ci.tanta.edu.eg/files/%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D8%B7%D8%A7%D9%84%D8%A8%2026.pdf",
+    "retrieved_date": "2026-10-22",
+    "sha256": "f72ffbe38e0f05472b4d6fbe5f6109a581fc83682bd0efb91d33d52ba1e90df0",
+    "bytes": 5145798,
+    "note": "Public faculty document; published figures and dates require confirmation before operational use."
+  },
+  {
+    "file": "tanta-level3-cs-2026-2027-term1.pdf",
+    "source_url": "https://ci.tanta.edu.eg/files/2026-2027/stu_tables/1st-term/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%88%D9%89%20%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%20CS.pdf",
+    "retrieved_date": "2026-10-22",
+    "sha256": "beadf0dfdd7fc312e28bc63b829741deec717a8ebbc8da13e9909fa246b58b83",
+    "bytes": 102231,
+    "note": "Public faculty document; published figures and dates require confirmation before operational use."
+  },
+  {
+    "file": "tanta-summer-general-2025-2026.pdf",
+    "source_url": "https://ci.tanta.edu.eg/files/2025-2026/stu_tables/summer/%D8%A7%D9%84%D8%AC%D8%AF%D9%88%D9%84%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85.pdf",
+    "retrieved_date": "2026-10-22",
+    "sha256": "6b310880e150397cfd1351e1b791ad05bf46b752ffafd680471fd4ff990b7463",
+    "bytes": 421755,
+    "note": "Public faculty document; published figures and dates require confirmation before operational use."
+  }
+]

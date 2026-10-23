@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-10-22T11:51:18.055216+00:00",
+  "scanner_code_sha256_at_export": "87454f5ed025dd4bbefc964435ca382f8e48fbc15b8c41fb702618612968d979",
+  "pdf_documents": 73,
+  "distinct_pdf_content_hashes": 73,
+  "pages": 137,
+  "ocr_pages": 28,
+  "scan_errors": 0,
+  "download_failures": 0,
+  "unscanned_image_pages": 0,
+  "pages_without_detected_location_header": 97,
+  "provisional_labels": 20,
+  "physical_location_labels": 19,
+  "observations": 648,
+  "observation_methods": {
+    "embedded_text": 648
+  },
+  "not_a_complete_room_count": true,
+  "approved_for_scheduling": 0
+}

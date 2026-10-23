@@ -1,0 +1,590 @@
+{
+  "data_kind": "synthetic; no real Tanta registrations or floor plan used",
+  "baseline_input_sha256": "36bf12cac85c14159862191ae7343847dd1bd551cf22931f65a3268f0a943394",
+  "solver_version": "9.15.6755",
+  "random_seed": 0,
+  "search_workers": 1,
+  "activity_count": 11,
+  "term_types": [
+    "first",
+    "second",
+    "summer"
+  ],
+  "student_conflict_edges": 43,
+  "baseline": {
+    "status": "OPTIMAL",
+    "assignments": {
+      "lecture": {
+        "event_id": "lecture",
+        "start": 29984250,
+        "end": 29984310,
+        "spaces": [
+          "hall"
+        ],
+        "space_versions": [
+          "hall-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-001",
+            "hall"
+          ],
+          [
+            "s-002",
+            "hall"
+          ],
+          [
+            "s-003",
+            "hall"
+          ]
+        ],
+        "preference_cost": 0,
+        "occupancy_atoms": [
+          "hall"
+        ]
+      },
+      "lab-A": {
+        "event_id": "lab-A",
+        "start": 29984100,
+        "end": 29984160,
+        "spaces": [
+          "lab-1"
+        ],
+        "space_versions": [
+          "lab-1-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-001",
+            "lab-1"
+          ],
+          [
+            "s-002",
+            "lab-1"
+          ]
+        ],
+        "preference_cost": 0,
+        "occupancy_atoms": [
+          "lab-1"
+        ]
+      },
+      "lab-B": {
+        "event_id": "lab-B",
+        "start": 29984175,
+        "end": 29984235,
+        "spaces": [
+          "lab-1"
+        ],
+        "space_versions": [
+          "lab-1-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-003",
+            "lab-1"
+          ]
+        ],
+        "preference_cost": 0,
+        "occupancy_atoms": [
+          "lab-1"
+        ]
+      },
+      "repeat-course": {
+        "event_id": "repeat-course",
+        "start": 29984100,
+        "end": 29984160,
+        "spaces": [
+          "hall"
+        ],
+        "space_versions": [
+          "hall-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-003",
+            "hall"
+          ]
+        ],
+        "preference_cost": 0,
+        "occupancy_atoms": [
+          "hall"
+        ]
+      },
+      "second-term-lecture": {
+        "event_id": "second-term-lecture",
+        "start": 30064740,
+        "end": 30064800,
+        "spaces": [
+          "hall"
+        ],
+        "space_versions": [
+          "hall-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-001",
+            "hall"
+          ]
+        ],
+        "preference_cost": 0,
+        "occupancy_atoms": [
+          "hall"
+        ]
+      },
+      "summer-lecture": {
+        "event_id": "summer-lecture",
+        "start": 30246180,
+        "end": 30246240,
+        "spaces": [
+          "hall"
+        ],
+        "space_versions": [
+          "hall-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-001",
+            "hall"
+          ]
+        ],
+        "preference_cost": 0,
+        "occupancy_atoms": [
+          "hall"
+        ]
+      },
+      "midterm-sitting": {
+        "event_id": "midterm-sitting",
+        "start": 29984400,
+        "end": 29984460,
+        "spaces": [
+          "hall"
+        ],
+        "space_versions": [
+          "hall-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-001",
+            "hall"
+          ],
+          [
+            "s-002",
+            "hall"
+          ],
+          [
+            "s-003",
+            "hall"
+          ]
+        ],
+        "preference_cost": 0,
+        "occupancy_atoms": [
+          "hall"
+        ]
+      },
+      "written-sitting": {
+        "event_id": "written-sitting",
+        "start": 29985615,
+        "end": 29985675,
+        "spaces": [
+          "hall"
+        ],
+        "space_versions": [
+          "hall-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-001",
+            "hall"
+          ],
+          [
+            "s-002",
+            "hall"
+          ],
+          [
+            "s-003",
+            "hall"
+          ]
+        ],
+        "preference_cost": 0,
+        "occupancy_atoms": [
+          "hall"
+        ]
+      },
+      "oral-sitting": {
+        "event_id": "oral-sitting",
+        "start": 29985540,
+        "end": 29985570,
+        "spaces": [
+          "hall"
+        ],
+        "space_versions": [
+          "hall-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-001",
+            "hall"
+          ],
+          [
+            "s-002",
+            "hall"
+          ],
+          [
+            "s-003",
+            "hall"
+          ]
+        ],
+        "preference_cost": 0,
+        "occupancy_atoms": [
+          "hall"
+        ]
+      },
+      "practical-A": {
+        "event_id": "practical-A",
+        "start": 29985690,
+        "end": 29985750,
+        "spaces": [
+          "lab-1"
+        ],
+        "space_versions": [
+          "lab-1-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-001",
+            "lab-1"
+          ],
+          [
+            "s-002",
+            "lab-1"
+          ]
+        ],
+        "preference_cost": 0,
+        "occupancy_atoms": [
+          "lab-1"
+        ]
+      },
+      "practical-B": {
+        "event_id": "practical-B",
+        "start": 29985765,
+        "end": 29985825,
+        "spaces": [
+          "lab-1"
+        ],
+        "space_versions": [
+          "lab-1-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-003",
+            "lab-1"
+          ]
+        ],
+        "preference_cost": 0,
+        "occupancy_atoms": [
+          "lab-1"
+        ]
+      }
+    },
+    "runtime_seconds": 0.003998364,
+    "move_weight": 5,
+    "scope": "Encoded finite candidates and supplied availability/navigation only",
+    "diagnostics": {
+      "unreachable_or_unconfirmed_routes": []
+    },
+    "changed_events": [],
+    "objective": 0.0,
+    "best_bound": 0.0
+  },
+  "after_lab_closure": {
+    "status": "OPTIMAL",
+    "assignments": {
+      "lecture": {
+        "event_id": "lecture",
+        "start": 29984250,
+        "end": 29984310,
+        "spaces": [
+          "hall"
+        ],
+        "space_versions": [
+          "hall-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-001",
+            "hall"
+          ],
+          [
+            "s-002",
+            "hall"
+          ],
+          [
+            "s-003",
+            "hall"
+          ]
+        ],
+        "preference_cost": 0,
+        "occupancy_atoms": [
+          "hall"
+        ]
+      },
+      "lab-A": {
+        "event_id": "lab-A",
+        "start": 29984100,
+        "end": 29984160,
+        "spaces": [
+          "lab-2"
+        ],
+        "space_versions": [
+          "lab-2-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-001",
+            "lab-2"
+          ],
+          [
+            "s-002",
+            "lab-2"
+          ]
+        ],
+        "preference_cost": 1,
+        "occupancy_atoms": [
+          "lab-2"
+        ]
+      },
+      "lab-B": {
+        "event_id": "lab-B",
+        "start": 29984175,
+        "end": 29984235,
+        "spaces": [
+          "lab-2"
+        ],
+        "space_versions": [
+          "lab-2-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-003",
+            "lab-2"
+          ]
+        ],
+        "preference_cost": 1,
+        "occupancy_atoms": [
+          "lab-2"
+        ]
+      },
+      "repeat-course": {
+        "event_id": "repeat-course",
+        "start": 29984100,
+        "end": 29984160,
+        "spaces": [
+          "hall"
+        ],
+        "space_versions": [
+          "hall-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-003",
+            "hall"
+          ]
+        ],
+        "preference_cost": 0,
+        "occupancy_atoms": [
+          "hall"
+        ]
+      },
+      "second-term-lecture": {
+        "event_id": "second-term-lecture",
+        "start": 30064740,
+        "end": 30064800,
+        "spaces": [
+          "hall"
+        ],
+        "space_versions": [
+          "hall-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-001",
+            "hall"
+          ]
+        ],
+        "preference_cost": 0,
+        "occupancy_atoms": [
+          "hall"
+        ]
+      },
+      "summer-lecture": {
+        "event_id": "summer-lecture",
+        "start": 30246180,
+        "end": 30246240,
+        "spaces": [
+          "hall"
+        ],
+        "space_versions": [
+          "hall-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-001",
+            "hall"
+          ]
+        ],
+        "preference_cost": 0,
+        "occupancy_atoms": [
+          "hall"
+        ]
+      },
+      "midterm-sitting": {
+        "event_id": "midterm-sitting",
+        "start": 29984400,
+        "end": 29984460,
+        "spaces": [
+          "hall"
+        ],
+        "space_versions": [
+          "hall-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-001",
+            "hall"
+          ],
+          [
+            "s-002",
+            "hall"
+          ],
+          [
+            "s-003",
+            "hall"
+          ]
+        ],
+        "preference_cost": 0,
+        "occupancy_atoms": [
+          "hall"
+        ]
+      },
+      "written-sitting": {
+        "event_id": "written-sitting",
+        "start": 29985615,
+        "end": 29985675,
+        "spaces": [
+          "hall"
+        ],
+        "space_versions": [
+          "hall-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-001",
+            "hall"
+          ],
+          [
+            "s-002",
+            "hall"
+          ],
+          [
+            "s-003",
+            "hall"
+          ]
+        ],
+        "preference_cost": 0,
+        "occupancy_atoms": [
+          "hall"
+        ]
+      },
+      "oral-sitting": {
+        "event_id": "oral-sitting",
+        "start": 29985540,
+        "end": 29985570,
+        "spaces": [
+          "hall"
+        ],
+        "space_versions": [
+          "hall-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-001",
+            "hall"
+          ],
+          [
+            "s-002",
+            "hall"
+          ],
+          [
+            "s-003",
+            "hall"
+          ]
+        ],
+        "preference_cost": 0,
+        "occupancy_atoms": [
+          "hall"
+        ]
+      },
+      "practical-A": {
+        "event_id": "practical-A",
+        "start": 29985765,
+        "end": 29985825,
+        "spaces": [
+          "lab-2"
+        ],
+        "space_versions": [
+          "lab-2-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-001",
+            "lab-2"
+          ],
+          [
+            "s-002",
+            "lab-2"
+          ]
+        ],
+        "preference_cost": 1,
+        "occupancy_atoms": [
+          "lab-2"
+        ]
+      },
+      "practical-B": {
+        "event_id": "practical-B",
+        "start": 29985690,
+        "end": 29985750,
+        "spaces": [
+          "lab-2"
+        ],
+        "space_versions": [
+          "lab-2-v1"
+        ],
+        "student_spaces": [
+          [
+            "s-003",
+            "lab-2"
+          ]
+        ],
+        "preference_cost": 1,
+        "occupancy_atoms": [
+          "lab-2"
+        ]
+      }
+    },
+    "runtime_seconds": 0.002607334,
+    "move_weight": 5,
+    "scope": "Encoded finite candidates and supplied availability/navigation only",
+    "diagnostics": {
+      "unreachable_or_unconfirmed_routes": []
+    },
+    "changed_events": [
+      "lab-A",
+      "lab-B",
+      "practical-A",
+      "practical-B"
+    ],
+    "objective": 24.000000000000004,
+    "best_bound": 24.000000000000004
+  },
+  "validation_errors": []
+}

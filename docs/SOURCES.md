@@ -19,4 +19,4 @@ The local scan covered **73 distinct timetable PDFs, 137 pages**, including **28
 
 Confirm aliases, building/floor placement, capacities, and availability before using these labels as scheduling resources. For example, `C` and `معمل C` may refer to the same room; the PDFs alone do not establish that identity. The central-hall wording does not establish a numbered floor.
 
-Use the faculty's current room inventory and registration export to complete the inputs. Source documents supply naming and presentation examples; they are not a complete architectural survey or student registry.
+The current standalone product uses manually entered rooms/courses and student registrations entered individually or through the specified year CSV. The scan is historical research, not an automatic import or an official integration. Source documents supply naming and presentation examples; they are not a complete architectural survey or student registry.

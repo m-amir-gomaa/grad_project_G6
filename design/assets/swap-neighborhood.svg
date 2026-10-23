@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640">
+<rect width="960" height="640" fill="#FFFFFF"/>
+<path d="M 620 305 C 490 305 685 95 575 95" fill="none" stroke="#D5A3AC" stroke-width="1.5" stroke-dasharray="5 7"/>
+<path d="M 620 305 C 490 305 415 90 305 90" fill="none" stroke="#23986F" stroke-width="3"/>
+<path d="M 620 305 C 490 305 395 285 285 285" fill="none" stroke="#D5A3AC" stroke-width="1.5" stroke-dasharray="5 7"/>
+<path d="M 620 305 C 490 305 670 305 560 305" fill="none" stroke="#D5A3AC" stroke-width="1.5" stroke-dasharray="5 7"/>
+<path d="M 620 305 C 490 305 395 510 285 510" fill="none" stroke="#D5A3AC" stroke-width="1.5" stroke-dasharray="5 7"/>
+<path d="M 620 305 C 490 305 665 535 555 535" fill="none" stroke="#D5A3AC" stroke-width="1.5" stroke-dasharray="5 7"/>
+<path d="M 620 305 C 490 305 955 530 845 530" fill="none" stroke="#B4BDCD" stroke-width="1.5" stroke-dasharray="5 7"/>
+<g id="graph-node-C"><rect x="115" y="41" width="190" height="98" rx="15" fill="#F7FCF9" stroke="#67B498" stroke-width="1.2"/>
+<rect x="287" y="60" width="3" height="60" rx="1.5" fill="#25857B"/>
+<text x="210" y="73" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="16" fill="#202939">قواعد بيانات</text>
+<text x="210" y="95" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="11" fill="#627087">⁦13:00–14:30⁩ · قاعة 2</text>
+<text x="210" y="113" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="10" fill="#627087">أسابيع زوجية</text>
+<text x="210" y="132" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="12" fill="#187B59">يمكن التبديل</text>
+</g>
+<g id="graph-node-B"><rect x="385" y="46" width="190" height="98" rx="15" fill="#FFFFFF" stroke="#E6C5CD" stroke-width="1.2"/>
+<rect x="557" y="65" width="3" height="60" rx="1.5" fill="#875CC7"/>
+<text x="480" y="78" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="16" fill="#202939">هياكل بيانات</text>
+<text x="480" y="100" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="11" fill="#627087">⁦11:00–12:00⁩ · قاعة 2</text>
+<text x="480" y="118" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="10" fill="#627087">كل الأسابيع</text>
+<text x="480" y="137" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="12" fill="#A65C6C">عرض السبب</text>
+</g>
+<g id="graph-node-D"><rect x="95" y="236" width="190" height="98" rx="15" fill="#FFFFFF" stroke="#E6C5CD" stroke-width="1.2"/>
+<rect x="267" y="255" width="3" height="60" rx="1.5" fill="#BA8025"/>
+<text x="190" y="268" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="16" fill="#202939">ذكاء اصطناعي</text>
+<text x="190" y="290" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="11" fill="#627087">⁦11:00–12:00⁩ · معمل 1</text>
+<text x="190" y="308" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="10" fill="#627087">أسابيع فردية</text>
+<text x="190" y="327" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="12" fill="#A65C6C">عرض السبب</text>
+</g>
+<g id="graph-node-E"><rect x="370" y="256" width="190" height="98" rx="15" fill="#FFFFFF" stroke="#E6C5CD" stroke-width="1.2"/>
+<rect x="542" y="275" width="3" height="60" rx="1.5" fill="#875CC7"/>
+<text x="465" y="288" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="16" fill="#202939">رياضيات حاسوبية</text>
+<text x="465" y="310" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="11" fill="#627087">⁦12:00–13:00⁩ · قاعة 2</text>
+<text x="465" y="328" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="10" fill="#627087">كل الأسابيع</text>
+<text x="465" y="347" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="12" fill="#A65C6C">عرض السبب</text>
+</g>
+<g id="graph-node-F"><rect x="95" y="461" width="190" height="98" rx="15" fill="#FFFFFF" stroke="#E6C5CD" stroke-width="1.2"/>
+<rect x="267" y="480" width="3" height="60" rx="1.5" fill="#25857B"/>
+<text x="190" y="493" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="16" fill="#202939">قواعد بيانات</text>
+<text x="190" y="515" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="11" fill="#627087">⁦14:30–15:30⁩ · معمل 1</text>
+<text x="190" y="533" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="10" fill="#627087">كل الأسابيع</text>
+<text x="190" y="552" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="12" fill="#A65C6C">عرض السبب</text>
+</g>
+<g id="graph-node-G"><rect x="365" y="486" width="190" height="98" rx="15" fill="#FFFFFF" stroke="#E6C5CD" stroke-width="1.2"/>
+<rect x="537" y="505" width="3" height="60" rx="1.5" fill="#4D65D9"/>
+<text x="460" y="518" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="16" fill="#202939">برمجة 1</text>
+<text x="460" y="540" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="11" fill="#627087">⁦15:30–16:30⁩ · معمل 1</text>
+<text x="460" y="558" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="10" fill="#627087">كل الأسابيع</text>
+<text x="460" y="577" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="12" fill="#A65C6C">عرض السبب</text>
+</g>
+<g id="graph-node-H"><rect x="655" y="481" width="190" height="98" rx="15" fill="#FFFFFF" stroke="#B9C4D3" stroke-width="1.2"/>
+<rect x="827" y="500" width="3" height="60" rx="1.5" fill="#BA8025"/>
+<text x="750" y="513" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="16" fill="#202939">شبكات متقدمة</text>
+<text x="750" y="535" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="11" fill="#627087">⁦16:00–17:00⁩ · قاعة 2</text>
+<text x="750" y="553" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="10" fill="#627087">كل الأسابيع</text>
+<text x="750" y="572" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="12" fill="#73819A">مثبتة</text>
+</g>
+<g id="graph-node-A"><rect x="620" y="256" width="190" height="98" rx="15" fill="#F0F4FF" stroke="#315DF5" stroke-width="2"/>
+<rect x="792" y="275" width="3" height="60" rx="1.5" fill="#4D65D9"/>
+<text x="715" y="288" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="16" fill="#202939">برمجة 1</text>
+<text x="715" y="310" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="11" fill="#627087">⁦09:00–11:00⁩ · قاعة 1</text>
+<text x="715" y="328" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="10" fill="#627087">كل الأسابيع</text>
+<text x="715" y="347" text-anchor="middle" direction="rtl" font-family="Noto Sans Arabic" font-size="12" fill="#315DF5">الحصة المختارة</text>
+</g>
+</svg>

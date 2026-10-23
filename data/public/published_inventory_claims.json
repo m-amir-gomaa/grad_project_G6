@@ -1,0 +1,26 @@
+{
+  "university_id": "tanta-university",
+  "status": "published_source_claims_pending_current_faculty_confirmation",
+  "source_url": "https://ci.tanta.edu.eg/files/%D8%AF%D9%84%D9%8A%D9%84%20%D8%A7%D9%84%D8%B7%D8%A7%D9%84%D8%A8%2026.pdf",
+  "source_sha256": "f72ffbe38e0f05472b4d6fbe5f6109a581fc83682bd0efb91d33d52ba1e90df0",
+  "extraction_method": "visual transcription of the previously rendered inventory pages",
+  "laboratory_claims_pdf_page": 56,
+  "laboratories": [
+    {"label": "B", "published_seats": 57, "published_computers": 57},
+    {"label": "C", "published_seats": 57, "published_computers": 37},
+    {"label": "D", "published_seats": 57, "published_computers": 50},
+    {"label": "E", "published_seats": 44, "published_computers": 37},
+    {"label": "F", "published_seats": 44, "published_computers": 37},
+    {"label": "G", "published_seats": 44, "published_computers": 37},
+    {"label": "H", "published_seats": 44, "published_computers": 37}
+  ],
+  "aggregate_claims_pdf_page": 57,
+  "unnamed_space_groups": [
+    {"kind": "lecture_hall", "published_count": 3, "published_seats_each": 120},
+    {"kind": "classroom", "published_count": 8, "published_seats_each": 35}
+  ],
+  "mapping_to_timetable_labels": "unconfirmed; not automatically applied",
+  "usable_computer_counts": "unknown; an inventory count does not establish current working equipment",
+  "exam_capacities": "unknown",
+  "building_and_floor_mapping": "unknown"
+}

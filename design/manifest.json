@@ -1,0 +1,877 @@
+{
+  "status": "simplified proposal; synthetic data; navigation-only prototype",
+  "native": "g6-timetabling.figcraft",
+  "primaryScreens": [
+    "01-students",
+    "02-generate",
+    "03-schedule"
+  ],
+  "frames": {
+    "01-students": 12,
+    "02-generate": 51,
+    "03-schedule": 77,
+    "04-add-student": 128,
+    "04-selected-first": 156,
+    "04-selected-two": 185,
+    "05-csv-preview": 215,
+    "06-courses": 249,
+    "07-professors": 298,
+    "08-rooms": 333,
+    "09-calendar": 374,
+    "10-download": 415,
+    "11-running": 444,
+    "16-download-done": 461,
+    "15-mobile-schedule": 478,
+    "12-fix-input": 496,
+    "14-empty-students": 524,
+    "13-schedule-year2": 554,
+    "13-schedule-year3": 599,
+    "13-schedule-year4": 644,
+    "17-edit-calendar": 689,
+    "18-swap-graph": 777,
+    "19-swap-preview": 876,
+    "20-swap-blocked": 926,
+    "21-edit-applied": 971,
+    "22-broader-preview": 1053,
+    "23-broader-applied": 1096
+  },
+  "components": {
+    "primary": 3,
+    "secondary": 6,
+    "disabled": 9
+  },
+  "variables": 15,
+  "links": [
+    {
+      "from": "01-students",
+      "node": 1178,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 15
+    },
+    {
+      "from": "01-students",
+      "node": 1179,
+      "destination": "04-add-student",
+      "label": "إضافة طالب",
+      "visualNode": 33
+    },
+    {
+      "from": "01-students",
+      "node": 1180,
+      "destination": "05-csv-preview",
+      "label": "رفع ملف CSV",
+      "visualNode": 35
+    },
+    {
+      "from": "01-students",
+      "node": 1181,
+      "destination": "02-generate",
+      "label": "التالي",
+      "visualNode": 49
+    },
+    {
+      "from": "02-generate",
+      "node": 1182,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 54
+    },
+    {
+      "from": "02-generate",
+      "node": 1183,
+      "destination": "11-running",
+      "label": "إنشاء الجدول",
+      "visualNode": 73
+    },
+    {
+      "from": "02-generate",
+      "node": 1184,
+      "destination": "01-students",
+      "label": "رجوع للطلاب",
+      "visualNode": 75
+    },
+    {
+      "from": "03-schedule",
+      "node": 1185,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 80
+    },
+    {
+      "from": "03-schedule",
+      "node": 1186,
+      "destination": "13-schedule-year2",
+      "label": "السنة الثانية",
+      "visualNode": 92
+    },
+    {
+      "from": "03-schedule",
+      "node": 1187,
+      "destination": "13-schedule-year3",
+      "label": "السنة الثالثة",
+      "visualNode": 94
+    },
+    {
+      "from": "03-schedule",
+      "node": 1188,
+      "destination": "13-schedule-year4",
+      "label": "السنة الرابعة",
+      "visualNode": 96
+    },
+    {
+      "from": "03-schedule",
+      "node": 1189,
+      "destination": "10-download",
+      "label": "تحميل الجدول",
+      "visualNode": 122
+    },
+    {
+      "from": "03-schedule",
+      "node": 1190,
+      "destination": "17-edit-calendar",
+      "label": "تعديل الجدول",
+      "visualNode": 124
+    },
+    {
+      "from": "03-schedule",
+      "node": 1191,
+      "destination": "01-students",
+      "label": "تعديل البيانات",
+      "visualNode": 126
+    },
+    {
+      "from": "04-add-student",
+      "node": 1192,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 131
+    },
+    {
+      "from": "04-add-student",
+      "node": 1193,
+      "destination": "04-selected-first",
+      "label": "اختيار برمجة 1",
+      "visualNode": 143
+    },
+    {
+      "from": "04-add-student",
+      "node": 1194,
+      "destination": "01-students",
+      "label": "إلغاء",
+      "visualNode": 154
+    },
+    {
+      "from": "04-selected-first",
+      "node": 1195,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 159
+    },
+    {
+      "from": "04-selected-first",
+      "node": 1196,
+      "destination": "04-selected-two",
+      "label": "اختيار رياضيات 1",
+      "visualNode": 175
+    },
+    {
+      "from": "04-selected-first",
+      "node": 1197,
+      "destination": "01-students",
+      "label": "حفظ الطالب",
+      "visualNode": 181
+    },
+    {
+      "from": "04-selected-first",
+      "node": 1198,
+      "destination": "01-students",
+      "label": "إلغاء",
+      "visualNode": 183
+    },
+    {
+      "from": "04-selected-two",
+      "node": 1199,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 188
+    },
+    {
+      "from": "04-selected-two",
+      "node": 1200,
+      "destination": "01-students",
+      "label": "حفظ الطالب",
+      "visualNode": 211
+    },
+    {
+      "from": "04-selected-two",
+      "node": 1201,
+      "destination": "01-students",
+      "label": "إلغاء",
+      "visualNode": 213
+    },
+    {
+      "from": "05-csv-preview",
+      "node": 1202,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 218
+    },
+    {
+      "from": "05-csv-preview",
+      "node": 1203,
+      "destination": "01-students",
+      "label": "إضافة الطلاب",
+      "visualNode": 245
+    },
+    {
+      "from": "05-csv-preview",
+      "node": 1204,
+      "destination": "01-students",
+      "label": "إلغاء",
+      "visualNode": 247
+    },
+    {
+      "from": "06-courses",
+      "node": 1205,
+      "destination": "01-students",
+      "label": "العودة للطلاب",
+      "visualNode": 252
+    },
+    {
+      "from": "06-courses",
+      "node": 1206,
+      "destination": "07-professors",
+      "label": "المدرسون",
+      "visualNode": 259
+    },
+    {
+      "from": "06-courses",
+      "node": 1207,
+      "destination": "08-rooms",
+      "label": "القاعات",
+      "visualNode": 261
+    },
+    {
+      "from": "06-courses",
+      "node": 1208,
+      "destination": "09-calendar",
+      "label": "الأيام والساعات",
+      "visualNode": 263
+    },
+    {
+      "from": "06-courses",
+      "node": 1209,
+      "destination": "02-generate",
+      "label": "حفظ والعودة",
+      "visualNode": 295
+    },
+    {
+      "from": "07-professors",
+      "node": 1210,
+      "destination": "01-students",
+      "label": "العودة للطلاب",
+      "visualNode": 301
+    },
+    {
+      "from": "07-professors",
+      "node": 1211,
+      "destination": "06-courses",
+      "label": "المواد",
+      "visualNode": 306
+    },
+    {
+      "from": "07-professors",
+      "node": 1212,
+      "destination": "08-rooms",
+      "label": "القاعات",
+      "visualNode": 310
+    },
+    {
+      "from": "07-professors",
+      "node": 1213,
+      "destination": "09-calendar",
+      "label": "الأيام والساعات",
+      "visualNode": 312
+    },
+    {
+      "from": "07-professors",
+      "node": 1214,
+      "destination": "02-generate",
+      "label": "حفظ والعودة",
+      "visualNode": 331
+    },
+    {
+      "from": "08-rooms",
+      "node": 1215,
+      "destination": "01-students",
+      "label": "العودة للطلاب",
+      "visualNode": 336
+    },
+    {
+      "from": "08-rooms",
+      "node": 1216,
+      "destination": "06-courses",
+      "label": "المواد",
+      "visualNode": 341
+    },
+    {
+      "from": "08-rooms",
+      "node": 1217,
+      "destination": "07-professors",
+      "label": "المدرسون",
+      "visualNode": 343
+    },
+    {
+      "from": "08-rooms",
+      "node": 1218,
+      "destination": "09-calendar",
+      "label": "الأيام والساعات",
+      "visualNode": 347
+    },
+    {
+      "from": "08-rooms",
+      "node": 1219,
+      "destination": "02-generate",
+      "label": "حفظ والعودة",
+      "visualNode": 372
+    },
+    {
+      "from": "09-calendar",
+      "node": 1220,
+      "destination": "01-students",
+      "label": "العودة للطلاب",
+      "visualNode": 377
+    },
+    {
+      "from": "09-calendar",
+      "node": 1221,
+      "destination": "06-courses",
+      "label": "المواد",
+      "visualNode": 382
+    },
+    {
+      "from": "09-calendar",
+      "node": 1222,
+      "destination": "07-professors",
+      "label": "المدرسون",
+      "visualNode": 384
+    },
+    {
+      "from": "09-calendar",
+      "node": 1223,
+      "destination": "08-rooms",
+      "label": "القاعات",
+      "visualNode": 386
+    },
+    {
+      "from": "09-calendar",
+      "node": 1224,
+      "destination": "02-generate",
+      "label": "حفظ والعودة",
+      "visualNode": 413
+    },
+    {
+      "from": "10-download",
+      "node": 1225,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 418
+    },
+    {
+      "from": "10-download",
+      "node": 1226,
+      "destination": "16-download-done",
+      "label": "تحميل",
+      "visualNode": 440
+    },
+    {
+      "from": "10-download",
+      "node": 1227,
+      "destination": "03-schedule",
+      "label": "إلغاء",
+      "visualNode": 442
+    },
+    {
+      "from": "11-running",
+      "node": 1228,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 447
+    },
+    {
+      "from": "11-running",
+      "node": 1229,
+      "destination": "02-generate",
+      "label": "إلغاء",
+      "visualNode": 459
+    },
+    {
+      "from": "16-download-done",
+      "node": 1230,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 464
+    },
+    {
+      "from": "16-download-done",
+      "node": 1231,
+      "destination": "03-schedule",
+      "label": "العودة للجدول",
+      "visualNode": 476
+    },
+    {
+      "from": "15-mobile-schedule",
+      "node": 1232,
+      "destination": "10-download",
+      "label": "تحميل الجدول",
+      "visualNode": 493
+    },
+    {
+      "from": "12-fix-input",
+      "node": 1233,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 499
+    },
+    {
+      "from": "12-fix-input",
+      "node": 1234,
+      "destination": "06-courses",
+      "label": "تحديد المدة",
+      "visualNode": 518
+    },
+    {
+      "from": "12-fix-input",
+      "node": 1235,
+      "destination": "01-students",
+      "label": "رجوع للطلاب",
+      "visualNode": 522
+    },
+    {
+      "from": "14-empty-students",
+      "node": 1236,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 527
+    },
+    {
+      "from": "14-empty-students",
+      "node": 1237,
+      "destination": "04-add-student",
+      "label": "إضافة طالب",
+      "visualNode": 548
+    },
+    {
+      "from": "14-empty-students",
+      "node": 1238,
+      "destination": "05-csv-preview",
+      "label": "رفع ملف CSV",
+      "visualNode": 550
+    },
+    {
+      "from": "13-schedule-year2",
+      "node": 1239,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 557
+    },
+    {
+      "from": "13-schedule-year2",
+      "node": 1240,
+      "destination": "03-schedule",
+      "label": "السنة الأولى",
+      "visualNode": 567
+    },
+    {
+      "from": "13-schedule-year2",
+      "node": 1241,
+      "destination": "13-schedule-year3",
+      "label": "السنة الثالثة",
+      "visualNode": 571
+    },
+    {
+      "from": "13-schedule-year2",
+      "node": 1242,
+      "destination": "13-schedule-year4",
+      "label": "السنة الرابعة",
+      "visualNode": 573
+    },
+    {
+      "from": "13-schedule-year2",
+      "node": 1243,
+      "destination": "10-download",
+      "label": "تحميل الجدول",
+      "visualNode": 593
+    },
+    {
+      "from": "13-schedule-year2",
+      "node": 1244,
+      "destination": "17-edit-calendar",
+      "label": "تعديل الجدول",
+      "visualNode": 595
+    },
+    {
+      "from": "13-schedule-year2",
+      "node": 1245,
+      "destination": "01-students",
+      "label": "تعديل البيانات",
+      "visualNode": 597
+    },
+    {
+      "from": "13-schedule-year3",
+      "node": 1246,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 602
+    },
+    {
+      "from": "13-schedule-year3",
+      "node": 1247,
+      "destination": "03-schedule",
+      "label": "السنة الأولى",
+      "visualNode": 612
+    },
+    {
+      "from": "13-schedule-year3",
+      "node": 1248,
+      "destination": "13-schedule-year2",
+      "label": "السنة الثانية",
+      "visualNode": 614
+    },
+    {
+      "from": "13-schedule-year3",
+      "node": 1249,
+      "destination": "13-schedule-year4",
+      "label": "السنة الرابعة",
+      "visualNode": 618
+    },
+    {
+      "from": "13-schedule-year3",
+      "node": 1250,
+      "destination": "10-download",
+      "label": "تحميل الجدول",
+      "visualNode": 638
+    },
+    {
+      "from": "13-schedule-year3",
+      "node": 1251,
+      "destination": "17-edit-calendar",
+      "label": "تعديل الجدول",
+      "visualNode": 640
+    },
+    {
+      "from": "13-schedule-year3",
+      "node": 1252,
+      "destination": "01-students",
+      "label": "تعديل البيانات",
+      "visualNode": 642
+    },
+    {
+      "from": "13-schedule-year4",
+      "node": 1253,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 647
+    },
+    {
+      "from": "13-schedule-year4",
+      "node": 1254,
+      "destination": "03-schedule",
+      "label": "السنة الأولى",
+      "visualNode": 657
+    },
+    {
+      "from": "13-schedule-year4",
+      "node": 1255,
+      "destination": "13-schedule-year2",
+      "label": "السنة الثانية",
+      "visualNode": 659
+    },
+    {
+      "from": "13-schedule-year4",
+      "node": 1256,
+      "destination": "13-schedule-year3",
+      "label": "السنة الثالثة",
+      "visualNode": 661
+    },
+    {
+      "from": "13-schedule-year4",
+      "node": 1257,
+      "destination": "10-download",
+      "label": "تحميل الجدول",
+      "visualNode": 683
+    },
+    {
+      "from": "13-schedule-year4",
+      "node": 1258,
+      "destination": "17-edit-calendar",
+      "label": "تعديل الجدول",
+      "visualNode": 685
+    },
+    {
+      "from": "13-schedule-year4",
+      "node": 1259,
+      "destination": "01-students",
+      "label": "تعديل البيانات",
+      "visualNode": 687
+    },
+    {
+      "from": "17-edit-calendar",
+      "node": 1260,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 692
+    },
+    {
+      "from": "17-edit-calendar",
+      "node": 1261,
+      "destination": "17-edit-calendar",
+      "label": "الجدول",
+      "visualNode": 702
+    },
+    {
+      "from": "17-edit-calendar",
+      "node": 1262,
+      "destination": "18-swap-graph",
+      "label": "بدائل التبديل",
+      "visualNode": 704
+    },
+    {
+      "from": "17-edit-calendar",
+      "node": 1263,
+      "destination": "20-swap-blocked",
+      "label": "سبب تعذر تبديل هياكل البيانات",
+      "visualNode": 738
+    },
+    {
+      "from": "17-edit-calendar",
+      "node": 1264,
+      "destination": "19-swap-preview",
+      "label": "معاينة تبديل قواعد البيانات",
+      "visualNode": 746
+    },
+    {
+      "from": "18-swap-graph",
+      "node": 1265,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 780
+    },
+    {
+      "from": "18-swap-graph",
+      "node": 1266,
+      "destination": "17-edit-calendar",
+      "label": "الجدول",
+      "visualNode": 790
+    },
+    {
+      "from": "18-swap-graph",
+      "node": 1267,
+      "destination": "18-swap-graph",
+      "label": "بدائل التبديل",
+      "visualNode": 792
+    },
+    {
+      "from": "18-swap-graph",
+      "node": 1268,
+      "destination": "19-swap-preview",
+      "label": "اختيار قواعد البيانات",
+      "visualNode": 860
+    },
+    {
+      "from": "18-swap-graph",
+      "node": 1269,
+      "destination": "20-swap-blocked",
+      "label": "عرض سبب هياكل البيانات",
+      "visualNode": 861
+    },
+    {
+      "from": "19-swap-preview",
+      "node": 1270,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 879
+    },
+    {
+      "from": "19-swap-preview",
+      "node": 1271,
+      "destination": "17-edit-calendar",
+      "label": "الجدول",
+      "visualNode": 889
+    },
+    {
+      "from": "19-swap-preview",
+      "node": 1272,
+      "destination": "18-swap-graph",
+      "label": "بدائل التبديل",
+      "visualNode": 891
+    },
+    {
+      "from": "19-swap-preview",
+      "node": 1273,
+      "destination": "21-edit-applied",
+      "label": "تطبيق التبديل",
+      "visualNode": 923
+    },
+    {
+      "from": "20-swap-blocked",
+      "node": 1274,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 929
+    },
+    {
+      "from": "20-swap-blocked",
+      "node": 1275,
+      "destination": "17-edit-calendar",
+      "label": "الجدول",
+      "visualNode": 939
+    },
+    {
+      "from": "20-swap-blocked",
+      "node": 1276,
+      "destination": "18-swap-graph",
+      "label": "بدائل التبديل",
+      "visualNode": 941
+    },
+    {
+      "from": "20-swap-blocked",
+      "node": 1277,
+      "destination": "22-broader-preview",
+      "label": "اقتراح ترتيب أوسع",
+      "visualNode": 968
+    },
+    {
+      "from": "21-edit-applied",
+      "node": 1278,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 974
+    },
+    {
+      "from": "21-edit-applied",
+      "node": 1279,
+      "destination": "17-edit-calendar",
+      "label": "الجدول",
+      "visualNode": 984
+    },
+    {
+      "from": "21-edit-applied",
+      "node": 1280,
+      "destination": "18-swap-graph",
+      "label": "بدائل التبديل",
+      "visualNode": 986
+    },
+    {
+      "from": "21-edit-applied",
+      "node": 1281,
+      "destination": "17-edit-calendar",
+      "label": "تراجع عن التبديل",
+      "visualNode": 1049
+    },
+    {
+      "from": "21-edit-applied",
+      "node": 1282,
+      "destination": "10-download",
+      "label": "تحميل الجدول",
+      "visualNode": 1051
+    },
+    {
+      "from": "22-broader-preview",
+      "node": 1283,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 1056
+    },
+    {
+      "from": "22-broader-preview",
+      "node": 1284,
+      "destination": "17-edit-calendar",
+      "label": "الجدول",
+      "visualNode": 1066
+    },
+    {
+      "from": "22-broader-preview",
+      "node": 1285,
+      "destination": "18-swap-graph",
+      "label": "بدائل التبديل",
+      "visualNode": 1068
+    },
+    {
+      "from": "22-broader-preview",
+      "node": 1286,
+      "destination": "20-swap-blocked",
+      "label": "إلغاء الاقتراح",
+      "visualNode": 1092
+    },
+    {
+      "from": "22-broader-preview",
+      "node": 1287,
+      "destination": "23-broader-applied",
+      "label": "تطبيق كل التغييرات",
+      "visualNode": 1094
+    },
+    {
+      "from": "23-broader-applied",
+      "node": 1288,
+      "destination": "06-courses",
+      "label": "الإعدادات",
+      "visualNode": 1099
+    },
+    {
+      "from": "23-broader-applied",
+      "node": 1289,
+      "destination": "17-edit-calendar",
+      "label": "الجدول",
+      "visualNode": 1109
+    },
+    {
+      "from": "23-broader-applied",
+      "node": 1290,
+      "destination": "18-swap-graph",
+      "label": "بدائل التبديل",
+      "visualNode": 1111
+    },
+    {
+      "from": "23-broader-applied",
+      "node": 1291,
+      "destination": "17-edit-calendar",
+      "label": "تراجع عن الترتيب",
+      "visualNode": 1174
+    },
+    {
+      "from": "23-broader-applied",
+      "node": 1292,
+      "destination": "10-download",
+      "label": "تحميل الجدول",
+      "visualNode": 1176
+    }
+  ],
+  "timedTransitions": [
+    {
+      "from": "11-running",
+      "to": "03-schedule",
+      "ms": 1300
+    }
+  ],
+  "editingFrames": [
+    "17-edit-calendar",
+    "18-swap-graph",
+    "19-swap-preview",
+    "20-swap-blocked",
+    "21-edit-applied",
+    "22-broader-preview",
+    "23-broader-applied"
+  ],
+  "editingEvidence": "assets/editing-evidence.json",
+  "inputContract": {
+    "studentFields": [
+      "registered_courses"
+    ],
+    "year": "selected list context",
+    "recordId": "generated metadata",
+    "professorAssignments": "setter only",
+    "durationAndFrequency": "manual, per course component"
+  }
+}

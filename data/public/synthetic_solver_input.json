@@ -1,0 +1,602 @@
+{
+  "events": [
+    {
+      "capacity_type": "seats",
+      "cleanup": 0,
+      "duration": 60,
+      "event_id": "lecture",
+      "features": [],
+      "is_exam": false,
+      "kind": "lecture",
+      "locked": false,
+      "max_rooms": 1,
+      "online": false,
+      "permitted_starts": [
+        29984100,
+        29984175,
+        29984250,
+        29984325
+      ],
+      "preferred_spaces": [],
+      "preferred_starts": [],
+      "preparation": 0,
+      "room_kinds": [
+        "lecture_hall"
+      ],
+      "staff": [
+        "lecturer"
+      ],
+      "students": [
+        "s-001",
+        "s-002",
+        "s-003"
+      ],
+      "term_id": "first",
+      "university_id": "synthetic-university"
+    },
+    {
+      "capacity_type": "workstations",
+      "cleanup": 0,
+      "duration": 60,
+      "event_id": "lab-A",
+      "features": [],
+      "is_exam": false,
+      "kind": "lab",
+      "locked": false,
+      "max_rooms": 1,
+      "online": false,
+      "permitted_starts": [
+        29984100,
+        29984175,
+        29984250,
+        29984325
+      ],
+      "preferred_spaces": [
+        "lab-1"
+      ],
+      "preferred_starts": [],
+      "preparation": 0,
+      "room_kinds": [
+        "laboratory"
+      ],
+      "staff": [
+        "assistant"
+      ],
+      "students": [
+        "s-001",
+        "s-002"
+      ],
+      "term_id": "first",
+      "university_id": "synthetic-university"
+    },
+    {
+      "capacity_type": "workstations",
+      "cleanup": 0,
+      "duration": 60,
+      "event_id": "lab-B",
+      "features": [],
+      "is_exam": false,
+      "kind": "lab",
+      "locked": false,
+      "max_rooms": 1,
+      "online": false,
+      "permitted_starts": [
+        29984100,
+        29984175,
+        29984250,
+        29984325
+      ],
+      "preferred_spaces": [
+        "lab-1"
+      ],
+      "preferred_starts": [],
+      "preparation": 0,
+      "room_kinds": [
+        "laboratory"
+      ],
+      "staff": [
+        "assistant"
+      ],
+      "students": [
+        "s-003"
+      ],
+      "term_id": "first",
+      "university_id": "synthetic-university"
+    },
+    {
+      "capacity_type": "seats",
+      "cleanup": 0,
+      "duration": 60,
+      "event_id": "repeat-course",
+      "features": [],
+      "is_exam": false,
+      "kind": "lecture",
+      "locked": false,
+      "max_rooms": 1,
+      "online": false,
+      "permitted_starts": [
+        29984100,
+        29984175,
+        29984250,
+        29984325
+      ],
+      "preferred_spaces": [],
+      "preferred_starts": [],
+      "preparation": 0,
+      "room_kinds": [
+        "lecture_hall"
+      ],
+      "staff": [
+        "lecturer"
+      ],
+      "students": [
+        "s-003"
+      ],
+      "term_id": "first",
+      "university_id": "synthetic-university"
+    },
+    {
+      "capacity_type": "seats",
+      "cleanup": 0,
+      "duration": 60,
+      "event_id": "second-term-lecture",
+      "features": [],
+      "is_exam": false,
+      "kind": "lecture",
+      "locked": false,
+      "max_rooms": 1,
+      "online": false,
+      "permitted_starts": [
+        30064740
+      ],
+      "preferred_spaces": [],
+      "preferred_starts": [],
+      "preparation": 0,
+      "room_kinds": [
+        "lecture_hall"
+      ],
+      "staff": [
+        "lecturer"
+      ],
+      "students": [
+        "s-001"
+      ],
+      "term_id": "second",
+      "university_id": "synthetic-university"
+    },
+    {
+      "capacity_type": "seats",
+      "cleanup": 0,
+      "duration": 60,
+      "event_id": "summer-lecture",
+      "features": [],
+      "is_exam": false,
+      "kind": "lecture",
+      "locked": false,
+      "max_rooms": 1,
+      "online": false,
+      "permitted_starts": [
+        30246180
+      ],
+      "preferred_spaces": [],
+      "preferred_starts": [],
+      "preparation": 0,
+      "room_kinds": [
+        "lecture_hall"
+      ],
+      "staff": [
+        "lecturer"
+      ],
+      "students": [
+        "s-001"
+      ],
+      "term_id": "summer",
+      "university_id": "synthetic-university"
+    },
+    {
+      "capacity_type": "exam",
+      "cleanup": 0,
+      "duration": 60,
+      "event_id": "midterm-sitting",
+      "features": [],
+      "is_exam": true,
+      "kind": "midterm_exam",
+      "locked": false,
+      "max_rooms": 1,
+      "online": false,
+      "permitted_starts": [
+        29984400,
+        29984475,
+        29984550,
+        29984625
+      ],
+      "preferred_spaces": [],
+      "preferred_starts": [],
+      "preparation": 0,
+      "room_kinds": [
+        "lecture_hall"
+      ],
+      "staff": [
+        "examiner"
+      ],
+      "students": [
+        "s-001",
+        "s-002",
+        "s-003"
+      ],
+      "term_id": "first",
+      "university_id": "synthetic-university"
+    },
+    {
+      "capacity_type": "exam",
+      "cleanup": 0,
+      "duration": 60,
+      "event_id": "written-sitting",
+      "features": [],
+      "is_exam": true,
+      "kind": "written_exam",
+      "locked": false,
+      "max_rooms": 1,
+      "online": false,
+      "permitted_starts": [
+        29985540,
+        29985615,
+        29985690,
+        29985765
+      ],
+      "preferred_spaces": [],
+      "preferred_starts": [],
+      "preparation": 0,
+      "room_kinds": [
+        "lecture_hall"
+      ],
+      "staff": [
+        "examiner"
+      ],
+      "students": [
+        "s-001",
+        "s-002",
+        "s-003"
+      ],
+      "term_id": "first",
+      "university_id": "synthetic-university"
+    },
+    {
+      "capacity_type": "exam",
+      "cleanup": 0,
+      "duration": 30,
+      "event_id": "oral-sitting",
+      "features": [],
+      "is_exam": true,
+      "kind": "oral_exam",
+      "locked": false,
+      "max_rooms": 1,
+      "online": false,
+      "permitted_starts": [
+        29985540,
+        29985615,
+        29985690,
+        29985765
+      ],
+      "preferred_spaces": [],
+      "preferred_starts": [],
+      "preparation": 0,
+      "room_kinds": [
+        "lecture_hall"
+      ],
+      "staff": [
+        "examiner"
+      ],
+      "students": [
+        "s-001",
+        "s-002",
+        "s-003"
+      ],
+      "term_id": "first",
+      "university_id": "synthetic-university"
+    },
+    {
+      "capacity_type": "workstations",
+      "cleanup": 0,
+      "duration": 60,
+      "event_id": "practical-A",
+      "features": [],
+      "is_exam": true,
+      "kind": "practical_exam",
+      "locked": false,
+      "max_rooms": 1,
+      "online": false,
+      "permitted_starts": [
+        29985540,
+        29985615,
+        29985690,
+        29985765
+      ],
+      "preferred_spaces": [
+        "lab-1"
+      ],
+      "preferred_starts": [],
+      "preparation": 0,
+      "room_kinds": [
+        "laboratory"
+      ],
+      "staff": [
+        "examiner"
+      ],
+      "students": [
+        "s-001",
+        "s-002"
+      ],
+      "term_id": "first",
+      "university_id": "synthetic-university"
+    },
+    {
+      "capacity_type": "workstations",
+      "cleanup": 0,
+      "duration": 60,
+      "event_id": "practical-B",
+      "features": [],
+      "is_exam": true,
+      "kind": "practical_exam",
+      "locked": false,
+      "max_rooms": 1,
+      "online": false,
+      "permitted_starts": [
+        29985540,
+        29985615,
+        29985690,
+        29985765
+      ],
+      "preferred_spaces": [
+        "lab-1"
+      ],
+      "preferred_starts": [],
+      "preparation": 0,
+      "room_kinds": [
+        "laboratory"
+      ],
+      "staff": [
+        "examiner"
+      ],
+      "students": [
+        "s-003"
+      ],
+      "term_id": "first",
+      "university_id": "synthetic-university"
+    }
+  ],
+  "minimum_exam_gap": 10,
+  "navigation": {
+    "standard": {
+      "hall": [
+        [
+          "lab-1",
+          5
+        ],
+        [
+          "lab-2",
+          10
+        ]
+      ],
+      "lab-1": [
+        [
+          "hall",
+          5
+        ],
+        [
+          "lab-2",
+          5
+        ]
+      ],
+      "lab-2": [
+        [
+          "hall",
+          10
+        ],
+        [
+          "lab-1",
+          5
+        ]
+      ]
+    }
+  },
+  "online_transition": 0,
+  "previous": {},
+  "spaces": [
+    {
+      "blocked": [],
+      "exam_places": 10,
+      "features": [],
+      "kind": "lecture_hall",
+      "occupancy_atoms": [],
+      "openings": [
+        {
+          "end": 29984700,
+          "start": 29984090
+        },
+        {
+          "end": 29986140,
+          "start": 29985540
+        },
+        {
+          "end": 29987580,
+          "start": 29986980
+        },
+        {
+          "end": 30065340,
+          "start": 30064740
+        },
+        {
+          "end": 30246780,
+          "start": 30246180
+        }
+      ],
+      "reviewed": true,
+      "seats": 20,
+      "space_id": "hall",
+      "state": "open",
+      "university_id": "synthetic-university",
+      "valid": {
+        "end": 30246780,
+        "start": 29984090
+      },
+      "version_id": "hall-v1",
+      "workstations": 0
+    },
+    {
+      "blocked": [],
+      "exam_places": 2,
+      "features": [
+        "python"
+      ],
+      "kind": "laboratory",
+      "occupancy_atoms": [],
+      "openings": [
+        {
+          "end": 29984700,
+          "start": 29984090
+        },
+        {
+          "end": 29986140,
+          "start": 29985540
+        },
+        {
+          "end": 29987580,
+          "start": 29986980
+        },
+        {
+          "end": 30065340,
+          "start": 30064740
+        },
+        {
+          "end": 30246780,
+          "start": 30246180
+        }
+      ],
+      "reviewed": true,
+      "seats": 2,
+      "space_id": "lab-1",
+      "state": "open",
+      "university_id": "synthetic-university",
+      "valid": {
+        "end": 30246780,
+        "start": 29984090
+      },
+      "version_id": "lab-1-v1",
+      "workstations": 2
+    },
+    {
+      "blocked": [],
+      "exam_places": 2,
+      "features": [
+        "python"
+      ],
+      "kind": "laboratory",
+      "occupancy_atoms": [],
+      "openings": [
+        {
+          "end": 29984700,
+          "start": 29984090
+        },
+        {
+          "end": 29986140,
+          "start": 29985540
+        },
+        {
+          "end": 29987580,
+          "start": 29986980
+        },
+        {
+          "end": 30065340,
+          "start": 30064740
+        },
+        {
+          "end": 30246780,
+          "start": 30246180
+        }
+      ],
+      "reviewed": true,
+      "seats": 2,
+      "space_id": "lab-2",
+      "state": "open",
+      "university_id": "synthetic-university",
+      "valid": {
+        "end": 30246780,
+        "start": 29984090
+      },
+      "version_id": "lab-2-v1",
+      "workstations": 2
+    }
+  ],
+  "staff_openings": {
+    "assistant": [
+      {
+        "end": 29984700,
+        "start": 29984090
+      },
+      {
+        "end": 29986140,
+        "start": 29985540
+      },
+      {
+        "end": 29987580,
+        "start": 29986980
+      },
+      {
+        "end": 30065340,
+        "start": 30064740
+      },
+      {
+        "end": 30246780,
+        "start": 30246180
+      }
+    ],
+    "examiner": [
+      {
+        "end": 29984700,
+        "start": 29984090
+      },
+      {
+        "end": 29986140,
+        "start": 29985540
+      },
+      {
+        "end": 29987580,
+        "start": 29986980
+      },
+      {
+        "end": 30065340,
+        "start": 30064740
+      },
+      {
+        "end": 30246780,
+        "start": 30246180
+      }
+    ],
+    "lecturer": [
+      {
+        "end": 29984700,
+        "start": 29984090
+      },
+      {
+        "end": 29986140,
+        "start": 29985540
+      },
+      {
+        "end": 29987580,
+        "start": 29986980
+      },
+      {
+        "end": 30065340,
+        "start": 30064740
+      },
+      {
+        "end": 30246780,
+        "start": 30246180
+      }
+    ]
+  },
+  "student_blackouts": {},
+  "student_profiles": {},
+  "university_id": "synthetic-university"
+}

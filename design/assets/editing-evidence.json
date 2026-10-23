@@ -1,0 +1,3888 @@
+{
+  "baseline": {
+    "synthetic": true,
+    "scope": "whole_weekly_pattern",
+    "timezone": "Africa/Cairo",
+    "revision": 1,
+    "input_revision": 0,
+    "valid": true,
+    "locked": [
+      "H"
+    ],
+    "can_undo": false,
+    "can_redo": false,
+    "events": [
+      {
+        "id": "A",
+        "label": "برمجة 1",
+        "kind": "محاضرة",
+        "year": 1,
+        "start": 0,
+        "end": 120,
+        "rooms": [
+          "h1"
+        ],
+        "duration": 120,
+        "years": [
+          1
+        ],
+        "professors": [
+          "p1"
+        ],
+        "room_options": [
+          [
+            "h1"
+          ],
+          [
+            "h2"
+          ]
+        ],
+        "day": 5,
+        "week_pattern": "all",
+        "occurrence_count": 3,
+        "occurrence_ids": [
+          "A:1",
+          "A:2",
+          "A:3"
+        ]
+      },
+      {
+        "id": "B",
+        "label": "هياكل بيانات",
+        "kind": "محاضرة",
+        "year": 2,
+        "start": 120,
+        "end": 180,
+        "rooms": [
+          "h2"
+        ],
+        "duration": 60,
+        "years": [
+          1,
+          2
+        ],
+        "professors": [
+          "p2"
+        ],
+        "room_options": [
+          [
+            "h1"
+          ],
+          [
+            "h2"
+          ]
+        ],
+        "day": 5,
+        "week_pattern": "all",
+        "occurrence_count": 3,
+        "occurrence_ids": [
+          "B:1",
+          "B:2",
+          "B:3"
+        ]
+      },
+      {
+        "id": "C",
+        "label": "قواعد بيانات",
+        "kind": "محاضرة",
+        "year": 3,
+        "start": 240,
+        "end": 330,
+        "rooms": [
+          "h2"
+        ],
+        "duration": 90,
+        "years": [
+          3
+        ],
+        "professors": [
+          "p1"
+        ],
+        "room_options": [
+          [
+            "h1"
+          ],
+          [
+            "h2"
+          ]
+        ],
+        "day": 5,
+        "week_pattern": "even",
+        "occurrence_count": 1,
+        "occurrence_ids": [
+          "C:2"
+        ]
+      },
+      {
+        "id": "D",
+        "label": "ذكاء اصطناعي",
+        "kind": "معمل",
+        "year": 4,
+        "start": 120,
+        "end": 180,
+        "rooms": [
+          "l1"
+        ],
+        "duration": 60,
+        "years": [
+          4
+        ],
+        "professors": [
+          "p3"
+        ],
+        "room_options": [
+          [
+            "l1"
+          ]
+        ],
+        "day": 5,
+        "week_pattern": "odd",
+        "occurrence_count": 2,
+        "occurrence_ids": [
+          "D:1",
+          "D:3"
+        ]
+      },
+      {
+        "id": "E",
+        "label": "رياضيات حاسوبية",
+        "kind": "محاضرة",
+        "year": 2,
+        "start": 180,
+        "end": 240,
+        "rooms": [
+          "h2"
+        ],
+        "duration": 60,
+        "years": [
+          2
+        ],
+        "professors": [
+          "p1"
+        ],
+        "room_options": [
+          [
+            "h1"
+          ],
+          [
+            "h2"
+          ]
+        ],
+        "day": 5,
+        "week_pattern": "all",
+        "occurrence_count": 3,
+        "occurrence_ids": [
+          "E:1",
+          "E:2",
+          "E:3"
+        ]
+      },
+      {
+        "id": "F",
+        "label": "قواعد بيانات",
+        "kind": "معمل",
+        "year": 3,
+        "start": 330,
+        "end": 390,
+        "rooms": [
+          "l1"
+        ],
+        "duration": 60,
+        "years": [
+          3
+        ],
+        "professors": [
+          "p2"
+        ],
+        "room_options": [
+          [
+            "l1"
+          ]
+        ],
+        "day": 5,
+        "week_pattern": "all",
+        "occurrence_count": 3,
+        "occurrence_ids": [
+          "F:1",
+          "F:2",
+          "F:3"
+        ]
+      },
+      {
+        "id": "G",
+        "label": "برمجة 1",
+        "kind": "معمل",
+        "year": 1,
+        "start": 390,
+        "end": 450,
+        "rooms": [
+          "l1"
+        ],
+        "duration": 60,
+        "years": [
+          1
+        ],
+        "professors": [
+          "p3"
+        ],
+        "room_options": [
+          [
+            "l1"
+          ]
+        ],
+        "day": 5,
+        "week_pattern": "all",
+        "occurrence_count": 3,
+        "occurrence_ids": [
+          "G:1",
+          "G:2",
+          "G:3"
+        ]
+      },
+      {
+        "id": "H",
+        "label": "شبكات متقدمة",
+        "kind": "محاضرة",
+        "year": 4,
+        "start": 420,
+        "end": 480,
+        "rooms": [
+          "h2"
+        ],
+        "duration": 60,
+        "years": [
+          4
+        ],
+        "professors": [
+          "p1"
+        ],
+        "room_options": [
+          [
+            "h1"
+          ],
+          [
+            "h2"
+          ]
+        ],
+        "day": 5,
+        "week_pattern": "all",
+        "occurrence_count": 3,
+        "occurrence_ids": [
+          "H:1",
+          "H:2",
+          "H:3"
+        ]
+      }
+    ],
+    "rooms": {
+      "h1": "قاعة 1",
+      "h2": "قاعة 2",
+      "l1": "معمل 1"
+    },
+    "professors": {
+      "p1": "مدرس أ",
+      "p2": "مدرس ب",
+      "p3": "مدرس ج"
+    },
+    "swaps": {
+      "revision": 1,
+      "input_revision": 0,
+      "selected": "A",
+      "mode": "time_only",
+      "targets": [
+        {
+          "occurrence": "B",
+          "status": "blocked",
+          "reasons": [
+            {
+              "code": "professor_overlap",
+              "occurrences": [
+                "A",
+                "E"
+              ],
+              "resource": "p1",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "occurrence": "C",
+          "status": "valid",
+          "reasons": []
+        },
+        {
+          "occurrence": "D",
+          "status": "blocked",
+          "reasons": [
+            {
+              "code": "professor_overlap",
+              "occurrences": [
+                "A",
+                "E"
+              ],
+              "resource": "p1",
+              "detail": ""
+            },
+            {
+              "code": "student_overlap",
+              "occurrences": [
+                "A",
+                "B"
+              ],
+              "resource": "y1-1",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "occurrence": "E",
+          "status": "blocked",
+          "reasons": [
+            {
+              "code": "professor_overlap",
+              "occurrences": [
+                "A",
+                "C"
+              ],
+              "resource": "p1",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "occurrence": "F",
+          "status": "blocked",
+          "reasons": [
+            {
+              "code": "professor_overlap",
+              "occurrences": [
+                "A",
+                "H"
+              ],
+              "resource": "p1",
+              "detail": ""
+            },
+            {
+              "code": "student_overlap",
+              "occurrences": [
+                "A",
+                "G"
+              ],
+              "resource": "y1-1",
+              "detail": ""
+            },
+            {
+              "code": "student_overlap",
+              "occurrences": [
+                "A",
+                "G"
+              ],
+              "resource": "y1-2",
+              "detail": ""
+            },
+            {
+              "code": "student_overlap",
+              "occurrences": [
+                "A",
+                "G"
+              ],
+              "resource": "y1-3",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "occurrence": "G",
+          "status": "blocked",
+          "reasons": [
+            {
+              "code": "professor_overlap",
+              "occurrences": [
+                "A",
+                "H"
+              ],
+              "resource": "p1",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "occurrence": "H",
+          "status": "blocked",
+          "reasons": [
+            {
+              "code": "locked",
+              "occurrences": [
+                "H"
+              ],
+              "resource": "",
+              "detail": ""
+            },
+            {
+              "code": "student_overlap",
+              "occurrences": [
+                "A",
+                "G"
+              ],
+              "resource": "y1-1",
+              "detail": ""
+            },
+            {
+              "code": "student_overlap",
+              "occurrences": [
+                "A",
+                "G"
+              ],
+              "resource": "y1-2",
+              "detail": ""
+            },
+            {
+              "code": "student_overlap",
+              "occurrences": [
+                "A",
+                "G"
+              ],
+              "resource": "y1-3",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "scope": "whole_weekly_pattern"
+    },
+    "occurrences": [
+      {
+        "id": "A:1",
+        "pattern": "A",
+        "start": 29870280,
+        "end": 29870400,
+        "rooms": [
+          "h1"
+        ],
+        "local": "2026-10-17T09:00:00+03:00",
+        "allocation": [
+          [
+            "y1-1",
+            "h1"
+          ],
+          [
+            "y1-2",
+            "h1"
+          ],
+          [
+            "y1-3",
+            "h1"
+          ]
+        ]
+      },
+      {
+        "id": "A:2",
+        "pattern": "A",
+        "start": 29880360,
+        "end": 29880480,
+        "rooms": [
+          "h1"
+        ],
+        "local": "2026-10-24T09:00:00+03:00",
+        "allocation": [
+          [
+            "y1-1",
+            "h1"
+          ],
+          [
+            "y1-2",
+            "h1"
+          ],
+          [
+            "y1-3",
+            "h1"
+          ]
+        ]
+      },
+      {
+        "id": "A:3",
+        "pattern": "A",
+        "start": 29890500,
+        "end": 29890620,
+        "rooms": [
+          "h1"
+        ],
+        "local": "2026-10-31T09:00:00+02:00",
+        "allocation": [
+          [
+            "y1-1",
+            "h1"
+          ],
+          [
+            "y1-2",
+            "h1"
+          ],
+          [
+            "y1-3",
+            "h1"
+          ]
+        ]
+      },
+      {
+        "id": "B:1",
+        "pattern": "B",
+        "start": 29870400,
+        "end": 29870460,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-17T11:00:00+03:00",
+        "allocation": [
+          [
+            "y1-1",
+            "h2"
+          ],
+          [
+            "y2-1",
+            "h2"
+          ],
+          [
+            "y2-2",
+            "h2"
+          ],
+          [
+            "y2-3",
+            "h2"
+          ]
+        ]
+      },
+      {
+        "id": "B:2",
+        "pattern": "B",
+        "start": 29880480,
+        "end": 29880540,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-24T11:00:00+03:00",
+        "allocation": [
+          [
+            "y1-1",
+            "h2"
+          ],
+          [
+            "y2-1",
+            "h2"
+          ],
+          [
+            "y2-2",
+            "h2"
+          ],
+          [
+            "y2-3",
+            "h2"
+          ]
+        ]
+      },
+      {
+        "id": "B:3",
+        "pattern": "B",
+        "start": 29890620,
+        "end": 29890680,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-31T11:00:00+02:00",
+        "allocation": [
+          [
+            "y1-1",
+            "h2"
+          ],
+          [
+            "y2-1",
+            "h2"
+          ],
+          [
+            "y2-2",
+            "h2"
+          ],
+          [
+            "y2-3",
+            "h2"
+          ]
+        ]
+      },
+      {
+        "id": "C:2",
+        "pattern": "C",
+        "start": 29880600,
+        "end": 29880690,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-24T13:00:00+03:00",
+        "allocation": [
+          [
+            "y3-1",
+            "h2"
+          ],
+          [
+            "y3-2",
+            "h2"
+          ],
+          [
+            "y3-3",
+            "h2"
+          ]
+        ]
+      },
+      {
+        "id": "D:1",
+        "pattern": "D",
+        "start": 29870400,
+        "end": 29870460,
+        "rooms": [
+          "l1"
+        ],
+        "local": "2026-10-17T11:00:00+03:00",
+        "allocation": [
+          [
+            "y4-1",
+            "l1"
+          ],
+          [
+            "y4-2",
+            "l1"
+          ],
+          [
+            "y4-3",
+            "l1"
+          ]
+        ]
+      },
+      {
+        "id": "D:3",
+        "pattern": "D",
+        "start": 29890620,
+        "end": 29890680,
+        "rooms": [
+          "l1"
+        ],
+        "local": "2026-10-31T11:00:00+02:00",
+        "allocation": [
+          [
+            "y4-1",
+            "l1"
+          ],
+          [
+            "y4-2",
+            "l1"
+          ],
+          [
+            "y4-3",
+            "l1"
+          ]
+        ]
+      },
+      {
+        "id": "E:1",
+        "pattern": "E",
+        "start": 29870460,
+        "end": 29870520,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-17T12:00:00+03:00",
+        "allocation": [
+          [
+            "y2-1",
+            "h2"
+          ],
+          [
+            "y2-2",
+            "h2"
+          ],
+          [
+            "y2-3",
+            "h2"
+          ]
+        ]
+      },
+      {
+        "id": "E:2",
+        "pattern": "E",
+        "start": 29880540,
+        "end": 29880600,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-24T12:00:00+03:00",
+        "allocation": [
+          [
+            "y2-1",
+            "h2"
+          ],
+          [
+            "y2-2",
+            "h2"
+          ],
+          [
+            "y2-3",
+            "h2"
+          ]
+        ]
+      },
+      {
+        "id": "E:3",
+        "pattern": "E",
+        "start": 29890680,
+        "end": 29890740,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-31T12:00:00+02:00",
+        "allocation": [
+          [
+            "y2-1",
+            "h2"
+          ],
+          [
+            "y2-2",
+            "h2"
+          ],
+          [
+            "y2-3",
+            "h2"
+          ]
+        ]
+      },
+      {
+        "id": "F:1",
+        "pattern": "F",
+        "start": 29870610,
+        "end": 29870670,
+        "rooms": [
+          "l1"
+        ],
+        "local": "2026-10-17T14:30:00+03:00",
+        "allocation": [
+          [
+            "y3-1",
+            "l1"
+          ],
+          [
+            "y3-2",
+            "l1"
+          ],
+          [
+            "y3-3",
+            "l1"
+          ]
+        ]
+      },
+      {
+        "id": "F:2",
+        "pattern": "F",
+        "start": 29880690,
+        "end": 29880750,
+        "rooms": [
+          "l1"
+        ],
+        "local": "2026-10-24T14:30:00+03:00",
+        "allocation": [
+          [
+            "y3-1",
+            "l1"
+          ],
+          [
+            "y3-2",
+            "l1"
+          ],
+          [
+            "y3-3",
+            "l1"
+          ]
+        ]
+      },
+      {
+        "id": "F:3",
+        "pattern": "F",
+        "start": 29890830,
+        "end": 29890890,
+        "rooms": [
+          "l1"
+        ],
+        "local": "2026-10-31T14:30:00+02:00",
+        "allocation": [
+          [
+            "y3-1",
+            "l1"
+          ],
+          [
+            "y3-2",
+            "l1"
+          ],
+          [
+            "y3-3",
+            "l1"
+          ]
+        ]
+      },
+      {
+        "id": "G:1",
+        "pattern": "G",
+        "start": 29870670,
+        "end": 29870730,
+        "rooms": [
+          "l1"
+        ],
+        "local": "2026-10-17T15:30:00+03:00",
+        "allocation": [
+          [
+            "y1-1",
+            "l1"
+          ],
+          [
+            "y1-2",
+            "l1"
+          ],
+          [
+            "y1-3",
+            "l1"
+          ]
+        ]
+      },
+      {
+        "id": "G:2",
+        "pattern": "G",
+        "start": 29880750,
+        "end": 29880810,
+        "rooms": [
+          "l1"
+        ],
+        "local": "2026-10-24T15:30:00+03:00",
+        "allocation": [
+          [
+            "y1-1",
+            "l1"
+          ],
+          [
+            "y1-2",
+            "l1"
+          ],
+          [
+            "y1-3",
+            "l1"
+          ]
+        ]
+      },
+      {
+        "id": "G:3",
+        "pattern": "G",
+        "start": 29890890,
+        "end": 29890950,
+        "rooms": [
+          "l1"
+        ],
+        "local": "2026-10-31T15:30:00+02:00",
+        "allocation": [
+          [
+            "y1-1",
+            "l1"
+          ],
+          [
+            "y1-2",
+            "l1"
+          ],
+          [
+            "y1-3",
+            "l1"
+          ]
+        ]
+      },
+      {
+        "id": "H:1",
+        "pattern": "H",
+        "start": 29870700,
+        "end": 29870760,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-17T16:00:00+03:00",
+        "allocation": [
+          [
+            "y4-1",
+            "h2"
+          ],
+          [
+            "y4-2",
+            "h2"
+          ],
+          [
+            "y4-3",
+            "h2"
+          ]
+        ]
+      },
+      {
+        "id": "H:2",
+        "pattern": "H",
+        "start": 29880780,
+        "end": 29880840,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-24T16:00:00+03:00",
+        "allocation": [
+          [
+            "y4-1",
+            "h2"
+          ],
+          [
+            "y4-2",
+            "h2"
+          ],
+          [
+            "y4-3",
+            "h2"
+          ]
+        ]
+      },
+      {
+        "id": "H:3",
+        "pattern": "H",
+        "start": 29890920,
+        "end": 29890980,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-31T16:00:00+02:00",
+        "allocation": [
+          [
+            "y4-1",
+            "h2"
+          ],
+          [
+            "y4-2",
+            "h2"
+          ],
+          [
+            "y4-3",
+            "h2"
+          ]
+        ]
+      }
+    ]
+  },
+  "validPreview": {
+    "revision": 1,
+    "input_revision": 0,
+    "scope": "whole_weekly_pattern",
+    "changed": [
+      "A",
+      "C"
+    ],
+    "changed_occurrences": [
+      "A:1",
+      "A:2",
+      "A:3",
+      "C:2"
+    ],
+    "affected_occurrences": 4,
+    "violations": [],
+    "placements": [
+      [
+        "A",
+        {
+          "id": "A",
+          "label": "برمجة 1",
+          "kind": "محاضرة",
+          "year": 1,
+          "start": 240,
+          "end": 360,
+          "rooms": [
+            "h1"
+          ],
+          "duration": 120,
+          "years": [
+            1
+          ],
+          "professors": [
+            "p1"
+          ],
+          "room_options": [
+            [
+              "h1"
+            ],
+            [
+              "h2"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "all",
+          "occurrence_count": 3,
+          "occurrence_ids": [
+            "A:1",
+            "A:2",
+            "A:3"
+          ]
+        }
+      ],
+      [
+        "B",
+        {
+          "id": "B",
+          "label": "هياكل بيانات",
+          "kind": "محاضرة",
+          "year": 2,
+          "start": 120,
+          "end": 180,
+          "rooms": [
+            "h2"
+          ],
+          "duration": 60,
+          "years": [
+            1,
+            2
+          ],
+          "professors": [
+            "p2"
+          ],
+          "room_options": [
+            [
+              "h1"
+            ],
+            [
+              "h2"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "all",
+          "occurrence_count": 3,
+          "occurrence_ids": [
+            "B:1",
+            "B:2",
+            "B:3"
+          ]
+        }
+      ],
+      [
+        "C",
+        {
+          "id": "C",
+          "label": "قواعد بيانات",
+          "kind": "محاضرة",
+          "year": 3,
+          "start": 0,
+          "end": 90,
+          "rooms": [
+            "h2"
+          ],
+          "duration": 90,
+          "years": [
+            3
+          ],
+          "professors": [
+            "p1"
+          ],
+          "room_options": [
+            [
+              "h1"
+            ],
+            [
+              "h2"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "even",
+          "occurrence_count": 1,
+          "occurrence_ids": [
+            "C:2"
+          ]
+        }
+      ],
+      [
+        "D",
+        {
+          "id": "D",
+          "label": "ذكاء اصطناعي",
+          "kind": "معمل",
+          "year": 4,
+          "start": 120,
+          "end": 180,
+          "rooms": [
+            "l1"
+          ],
+          "duration": 60,
+          "years": [
+            4
+          ],
+          "professors": [
+            "p3"
+          ],
+          "room_options": [
+            [
+              "l1"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "odd",
+          "occurrence_count": 2,
+          "occurrence_ids": [
+            "D:1",
+            "D:3"
+          ]
+        }
+      ],
+      [
+        "E",
+        {
+          "id": "E",
+          "label": "رياضيات حاسوبية",
+          "kind": "محاضرة",
+          "year": 2,
+          "start": 180,
+          "end": 240,
+          "rooms": [
+            "h2"
+          ],
+          "duration": 60,
+          "years": [
+            2
+          ],
+          "professors": [
+            "p1"
+          ],
+          "room_options": [
+            [
+              "h1"
+            ],
+            [
+              "h2"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "all",
+          "occurrence_count": 3,
+          "occurrence_ids": [
+            "E:1",
+            "E:2",
+            "E:3"
+          ]
+        }
+      ],
+      [
+        "F",
+        {
+          "id": "F",
+          "label": "قواعد بيانات",
+          "kind": "معمل",
+          "year": 3,
+          "start": 330,
+          "end": 390,
+          "rooms": [
+            "l1"
+          ],
+          "duration": 60,
+          "years": [
+            3
+          ],
+          "professors": [
+            "p2"
+          ],
+          "room_options": [
+            [
+              "l1"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "all",
+          "occurrence_count": 3,
+          "occurrence_ids": [
+            "F:1",
+            "F:2",
+            "F:3"
+          ]
+        }
+      ],
+      [
+        "G",
+        {
+          "id": "G",
+          "label": "برمجة 1",
+          "kind": "معمل",
+          "year": 1,
+          "start": 390,
+          "end": 450,
+          "rooms": [
+            "l1"
+          ],
+          "duration": 60,
+          "years": [
+            1
+          ],
+          "professors": [
+            "p3"
+          ],
+          "room_options": [
+            [
+              "l1"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "all",
+          "occurrence_count": 3,
+          "occurrence_ids": [
+            "G:1",
+            "G:2",
+            "G:3"
+          ]
+        }
+      ],
+      [
+        "H",
+        {
+          "id": "H",
+          "label": "شبكات متقدمة",
+          "kind": "محاضرة",
+          "year": 4,
+          "start": 420,
+          "end": 480,
+          "rooms": [
+            "h2"
+          ],
+          "duration": 60,
+          "years": [
+            4
+          ],
+          "professors": [
+            "p1"
+          ],
+          "room_options": [
+            [
+              "h1"
+            ],
+            [
+              "h2"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "all",
+          "occurrence_count": 3,
+          "occurrence_ids": [
+            "H:1",
+            "H:2",
+            "H:3"
+          ]
+        }
+      ]
+    ]
+  },
+  "blockedPreview": {
+    "revision": 1,
+    "input_revision": 0,
+    "scope": "whole_weekly_pattern",
+    "changed": [
+      "A",
+      "B"
+    ],
+    "changed_occurrences": [
+      "A:1",
+      "A:2",
+      "A:3",
+      "B:1",
+      "B:2",
+      "B:3"
+    ],
+    "affected_occurrences": 6,
+    "violations": [
+      {
+        "code": "professor_overlap",
+        "occurrences": [
+          "A",
+          "E"
+        ],
+        "resource": "p1",
+        "detail": ""
+      }
+    ],
+    "placements": [
+      [
+        "A",
+        {
+          "id": "A",
+          "label": "برمجة 1",
+          "kind": "محاضرة",
+          "year": 1,
+          "start": 120,
+          "end": 240,
+          "rooms": [
+            "h1"
+          ],
+          "duration": 120,
+          "years": [
+            1
+          ],
+          "professors": [
+            "p1"
+          ],
+          "room_options": [
+            [
+              "h1"
+            ],
+            [
+              "h2"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "all",
+          "occurrence_count": 3,
+          "occurrence_ids": [
+            "A:1",
+            "A:2",
+            "A:3"
+          ]
+        }
+      ],
+      [
+        "B",
+        {
+          "id": "B",
+          "label": "هياكل بيانات",
+          "kind": "محاضرة",
+          "year": 2,
+          "start": 0,
+          "end": 60,
+          "rooms": [
+            "h2"
+          ],
+          "duration": 60,
+          "years": [
+            1,
+            2
+          ],
+          "professors": [
+            "p2"
+          ],
+          "room_options": [
+            [
+              "h1"
+            ],
+            [
+              "h2"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "all",
+          "occurrence_count": 3,
+          "occurrence_ids": [
+            "B:1",
+            "B:2",
+            "B:3"
+          ]
+        }
+      ],
+      [
+        "C",
+        {
+          "id": "C",
+          "label": "قواعد بيانات",
+          "kind": "محاضرة",
+          "year": 3,
+          "start": 240,
+          "end": 330,
+          "rooms": [
+            "h2"
+          ],
+          "duration": 90,
+          "years": [
+            3
+          ],
+          "professors": [
+            "p1"
+          ],
+          "room_options": [
+            [
+              "h1"
+            ],
+            [
+              "h2"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "even",
+          "occurrence_count": 1,
+          "occurrence_ids": [
+            "C:2"
+          ]
+        }
+      ],
+      [
+        "D",
+        {
+          "id": "D",
+          "label": "ذكاء اصطناعي",
+          "kind": "معمل",
+          "year": 4,
+          "start": 120,
+          "end": 180,
+          "rooms": [
+            "l1"
+          ],
+          "duration": 60,
+          "years": [
+            4
+          ],
+          "professors": [
+            "p3"
+          ],
+          "room_options": [
+            [
+              "l1"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "odd",
+          "occurrence_count": 2,
+          "occurrence_ids": [
+            "D:1",
+            "D:3"
+          ]
+        }
+      ],
+      [
+        "E",
+        {
+          "id": "E",
+          "label": "رياضيات حاسوبية",
+          "kind": "محاضرة",
+          "year": 2,
+          "start": 180,
+          "end": 240,
+          "rooms": [
+            "h2"
+          ],
+          "duration": 60,
+          "years": [
+            2
+          ],
+          "professors": [
+            "p1"
+          ],
+          "room_options": [
+            [
+              "h1"
+            ],
+            [
+              "h2"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "all",
+          "occurrence_count": 3,
+          "occurrence_ids": [
+            "E:1",
+            "E:2",
+            "E:3"
+          ]
+        }
+      ],
+      [
+        "F",
+        {
+          "id": "F",
+          "label": "قواعد بيانات",
+          "kind": "معمل",
+          "year": 3,
+          "start": 330,
+          "end": 390,
+          "rooms": [
+            "l1"
+          ],
+          "duration": 60,
+          "years": [
+            3
+          ],
+          "professors": [
+            "p2"
+          ],
+          "room_options": [
+            [
+              "l1"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "all",
+          "occurrence_count": 3,
+          "occurrence_ids": [
+            "F:1",
+            "F:2",
+            "F:3"
+          ]
+        }
+      ],
+      [
+        "G",
+        {
+          "id": "G",
+          "label": "برمجة 1",
+          "kind": "معمل",
+          "year": 1,
+          "start": 390,
+          "end": 450,
+          "rooms": [
+            "l1"
+          ],
+          "duration": 60,
+          "years": [
+            1
+          ],
+          "professors": [
+            "p3"
+          ],
+          "room_options": [
+            [
+              "l1"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "all",
+          "occurrence_count": 3,
+          "occurrence_ids": [
+            "G:1",
+            "G:2",
+            "G:3"
+          ]
+        }
+      ],
+      [
+        "H",
+        {
+          "id": "H",
+          "label": "شبكات متقدمة",
+          "kind": "محاضرة",
+          "year": 4,
+          "start": 420,
+          "end": 480,
+          "rooms": [
+            "h2"
+          ],
+          "duration": 60,
+          "years": [
+            4
+          ],
+          "professors": [
+            "p1"
+          ],
+          "room_options": [
+            [
+              "h1"
+            ],
+            [
+              "h2"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "all",
+          "occurrence_count": 3,
+          "occurrence_ids": [
+            "H:1",
+            "H:2",
+            "H:3"
+          ]
+        }
+      ]
+    ]
+  },
+  "after": {
+    "synthetic": true,
+    "scope": "whole_weekly_pattern",
+    "timezone": "Africa/Cairo",
+    "revision": 2,
+    "input_revision": 0,
+    "valid": true,
+    "locked": [
+      "H"
+    ],
+    "can_undo": true,
+    "can_redo": false,
+    "events": [
+      {
+        "id": "A",
+        "label": "برمجة 1",
+        "kind": "محاضرة",
+        "year": 1,
+        "start": 240,
+        "end": 360,
+        "rooms": [
+          "h1"
+        ],
+        "duration": 120,
+        "years": [
+          1
+        ],
+        "professors": [
+          "p1"
+        ],
+        "room_options": [
+          [
+            "h1"
+          ],
+          [
+            "h2"
+          ]
+        ],
+        "day": 5,
+        "week_pattern": "all",
+        "occurrence_count": 3,
+        "occurrence_ids": [
+          "A:1",
+          "A:2",
+          "A:3"
+        ]
+      },
+      {
+        "id": "B",
+        "label": "هياكل بيانات",
+        "kind": "محاضرة",
+        "year": 2,
+        "start": 120,
+        "end": 180,
+        "rooms": [
+          "h2"
+        ],
+        "duration": 60,
+        "years": [
+          1,
+          2
+        ],
+        "professors": [
+          "p2"
+        ],
+        "room_options": [
+          [
+            "h1"
+          ],
+          [
+            "h2"
+          ]
+        ],
+        "day": 5,
+        "week_pattern": "all",
+        "occurrence_count": 3,
+        "occurrence_ids": [
+          "B:1",
+          "B:2",
+          "B:3"
+        ]
+      },
+      {
+        "id": "C",
+        "label": "قواعد بيانات",
+        "kind": "محاضرة",
+        "year": 3,
+        "start": 0,
+        "end": 90,
+        "rooms": [
+          "h2"
+        ],
+        "duration": 90,
+        "years": [
+          3
+        ],
+        "professors": [
+          "p1"
+        ],
+        "room_options": [
+          [
+            "h1"
+          ],
+          [
+            "h2"
+          ]
+        ],
+        "day": 5,
+        "week_pattern": "even",
+        "occurrence_count": 1,
+        "occurrence_ids": [
+          "C:2"
+        ]
+      },
+      {
+        "id": "D",
+        "label": "ذكاء اصطناعي",
+        "kind": "معمل",
+        "year": 4,
+        "start": 120,
+        "end": 180,
+        "rooms": [
+          "l1"
+        ],
+        "duration": 60,
+        "years": [
+          4
+        ],
+        "professors": [
+          "p3"
+        ],
+        "room_options": [
+          [
+            "l1"
+          ]
+        ],
+        "day": 5,
+        "week_pattern": "odd",
+        "occurrence_count": 2,
+        "occurrence_ids": [
+          "D:1",
+          "D:3"
+        ]
+      },
+      {
+        "id": "E",
+        "label": "رياضيات حاسوبية",
+        "kind": "محاضرة",
+        "year": 2,
+        "start": 180,
+        "end": 240,
+        "rooms": [
+          "h2"
+        ],
+        "duration": 60,
+        "years": [
+          2
+        ],
+        "professors": [
+          "p1"
+        ],
+        "room_options": [
+          [
+            "h1"
+          ],
+          [
+            "h2"
+          ]
+        ],
+        "day": 5,
+        "week_pattern": "all",
+        "occurrence_count": 3,
+        "occurrence_ids": [
+          "E:1",
+          "E:2",
+          "E:3"
+        ]
+      },
+      {
+        "id": "F",
+        "label": "قواعد بيانات",
+        "kind": "معمل",
+        "year": 3,
+        "start": 330,
+        "end": 390,
+        "rooms": [
+          "l1"
+        ],
+        "duration": 60,
+        "years": [
+          3
+        ],
+        "professors": [
+          "p2"
+        ],
+        "room_options": [
+          [
+            "l1"
+          ]
+        ],
+        "day": 5,
+        "week_pattern": "all",
+        "occurrence_count": 3,
+        "occurrence_ids": [
+          "F:1",
+          "F:2",
+          "F:3"
+        ]
+      },
+      {
+        "id": "G",
+        "label": "برمجة 1",
+        "kind": "معمل",
+        "year": 1,
+        "start": 390,
+        "end": 450,
+        "rooms": [
+          "l1"
+        ],
+        "duration": 60,
+        "years": [
+          1
+        ],
+        "professors": [
+          "p3"
+        ],
+        "room_options": [
+          [
+            "l1"
+          ]
+        ],
+        "day": 5,
+        "week_pattern": "all",
+        "occurrence_count": 3,
+        "occurrence_ids": [
+          "G:1",
+          "G:2",
+          "G:3"
+        ]
+      },
+      {
+        "id": "H",
+        "label": "شبكات متقدمة",
+        "kind": "محاضرة",
+        "year": 4,
+        "start": 420,
+        "end": 480,
+        "rooms": [
+          "h2"
+        ],
+        "duration": 60,
+        "years": [
+          4
+        ],
+        "professors": [
+          "p1"
+        ],
+        "room_options": [
+          [
+            "h1"
+          ],
+          [
+            "h2"
+          ]
+        ],
+        "day": 5,
+        "week_pattern": "all",
+        "occurrence_count": 3,
+        "occurrence_ids": [
+          "H:1",
+          "H:2",
+          "H:3"
+        ]
+      }
+    ],
+    "rooms": {
+      "h1": "قاعة 1",
+      "h2": "قاعة 2",
+      "l1": "معمل 1"
+    },
+    "professors": {
+      "p1": "مدرس أ",
+      "p2": "مدرس ب",
+      "p3": "مدرس ج"
+    },
+    "swaps": {
+      "revision": 2,
+      "input_revision": 0,
+      "selected": "A",
+      "mode": "time_only",
+      "targets": [
+        {
+          "occurrence": "B",
+          "status": "blocked",
+          "reasons": [
+            {
+              "code": "professor_overlap",
+              "occurrences": [
+                "A",
+                "E"
+              ],
+              "resource": "p1",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "occurrence": "C",
+          "status": "valid",
+          "reasons": []
+        },
+        {
+          "occurrence": "D",
+          "status": "blocked",
+          "reasons": [
+            {
+              "code": "professor_overlap",
+              "occurrences": [
+                "A",
+                "E"
+              ],
+              "resource": "p1",
+              "detail": ""
+            },
+            {
+              "code": "student_overlap",
+              "occurrences": [
+                "A",
+                "B"
+              ],
+              "resource": "y1-1",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "occurrence": "E",
+          "status": "blocked",
+          "reasons": [
+            {
+              "code": "professor_overlap",
+              "occurrences": [
+                "A",
+                "E"
+              ],
+              "resource": "p1",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "occurrence": "F",
+          "status": "blocked",
+          "reasons": [
+            {
+              "code": "professor_overlap",
+              "occurrences": [
+                "A",
+                "H"
+              ],
+              "resource": "p1",
+              "detail": ""
+            },
+            {
+              "code": "student_overlap",
+              "occurrences": [
+                "A",
+                "G"
+              ],
+              "resource": "y1-1",
+              "detail": ""
+            },
+            {
+              "code": "student_overlap",
+              "occurrences": [
+                "A",
+                "G"
+              ],
+              "resource": "y1-2",
+              "detail": ""
+            },
+            {
+              "code": "student_overlap",
+              "occurrences": [
+                "A",
+                "G"
+              ],
+              "resource": "y1-3",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "occurrence": "G",
+          "status": "blocked",
+          "reasons": [
+            {
+              "code": "professor_overlap",
+              "occurrences": [
+                "A",
+                "H"
+              ],
+              "resource": "p1",
+              "detail": ""
+            }
+          ]
+        },
+        {
+          "occurrence": "H",
+          "status": "blocked",
+          "reasons": [
+            {
+              "code": "locked",
+              "occurrences": [
+                "H"
+              ],
+              "resource": "",
+              "detail": ""
+            },
+            {
+              "code": "student_overlap",
+              "occurrences": [
+                "A",
+                "G"
+              ],
+              "resource": "y1-1",
+              "detail": ""
+            },
+            {
+              "code": "student_overlap",
+              "occurrences": [
+                "A",
+                "G"
+              ],
+              "resource": "y1-2",
+              "detail": ""
+            },
+            {
+              "code": "student_overlap",
+              "occurrences": [
+                "A",
+                "G"
+              ],
+              "resource": "y1-3",
+              "detail": ""
+            }
+          ]
+        }
+      ],
+      "scope": "whole_weekly_pattern"
+    },
+    "occurrences": [
+      {
+        "id": "A:1",
+        "pattern": "A",
+        "start": 29870520,
+        "end": 29870640,
+        "rooms": [
+          "h1"
+        ],
+        "local": "2026-10-17T13:00:00+03:00",
+        "allocation": [
+          [
+            "y1-1",
+            "h1"
+          ],
+          [
+            "y1-2",
+            "h1"
+          ],
+          [
+            "y1-3",
+            "h1"
+          ]
+        ]
+      },
+      {
+        "id": "A:2",
+        "pattern": "A",
+        "start": 29880600,
+        "end": 29880720,
+        "rooms": [
+          "h1"
+        ],
+        "local": "2026-10-24T13:00:00+03:00",
+        "allocation": [
+          [
+            "y1-1",
+            "h1"
+          ],
+          [
+            "y1-2",
+            "h1"
+          ],
+          [
+            "y1-3",
+            "h1"
+          ]
+        ]
+      },
+      {
+        "id": "A:3",
+        "pattern": "A",
+        "start": 29890740,
+        "end": 29890860,
+        "rooms": [
+          "h1"
+        ],
+        "local": "2026-10-31T13:00:00+02:00",
+        "allocation": [
+          [
+            "y1-1",
+            "h1"
+          ],
+          [
+            "y1-2",
+            "h1"
+          ],
+          [
+            "y1-3",
+            "h1"
+          ]
+        ]
+      },
+      {
+        "id": "B:1",
+        "pattern": "B",
+        "start": 29870400,
+        "end": 29870460,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-17T11:00:00+03:00",
+        "allocation": [
+          [
+            "y1-1",
+            "h2"
+          ],
+          [
+            "y2-1",
+            "h2"
+          ],
+          [
+            "y2-2",
+            "h2"
+          ],
+          [
+            "y2-3",
+            "h2"
+          ]
+        ]
+      },
+      {
+        "id": "B:2",
+        "pattern": "B",
+        "start": 29880480,
+        "end": 29880540,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-24T11:00:00+03:00",
+        "allocation": [
+          [
+            "y1-1",
+            "h2"
+          ],
+          [
+            "y2-1",
+            "h2"
+          ],
+          [
+            "y2-2",
+            "h2"
+          ],
+          [
+            "y2-3",
+            "h2"
+          ]
+        ]
+      },
+      {
+        "id": "B:3",
+        "pattern": "B",
+        "start": 29890620,
+        "end": 29890680,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-31T11:00:00+02:00",
+        "allocation": [
+          [
+            "y1-1",
+            "h2"
+          ],
+          [
+            "y2-1",
+            "h2"
+          ],
+          [
+            "y2-2",
+            "h2"
+          ],
+          [
+            "y2-3",
+            "h2"
+          ]
+        ]
+      },
+      {
+        "id": "C:2",
+        "pattern": "C",
+        "start": 29880360,
+        "end": 29880450,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-24T09:00:00+03:00",
+        "allocation": [
+          [
+            "y3-1",
+            "h2"
+          ],
+          [
+            "y3-2",
+            "h2"
+          ],
+          [
+            "y3-3",
+            "h2"
+          ]
+        ]
+      },
+      {
+        "id": "D:1",
+        "pattern": "D",
+        "start": 29870400,
+        "end": 29870460,
+        "rooms": [
+          "l1"
+        ],
+        "local": "2026-10-17T11:00:00+03:00",
+        "allocation": [
+          [
+            "y4-1",
+            "l1"
+          ],
+          [
+            "y4-2",
+            "l1"
+          ],
+          [
+            "y4-3",
+            "l1"
+          ]
+        ]
+      },
+      {
+        "id": "D:3",
+        "pattern": "D",
+        "start": 29890620,
+        "end": 29890680,
+        "rooms": [
+          "l1"
+        ],
+        "local": "2026-10-31T11:00:00+02:00",
+        "allocation": [
+          [
+            "y4-1",
+            "l1"
+          ],
+          [
+            "y4-2",
+            "l1"
+          ],
+          [
+            "y4-3",
+            "l1"
+          ]
+        ]
+      },
+      {
+        "id": "E:1",
+        "pattern": "E",
+        "start": 29870460,
+        "end": 29870520,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-17T12:00:00+03:00",
+        "allocation": [
+          [
+            "y2-1",
+            "h2"
+          ],
+          [
+            "y2-2",
+            "h2"
+          ],
+          [
+            "y2-3",
+            "h2"
+          ]
+        ]
+      },
+      {
+        "id": "E:2",
+        "pattern": "E",
+        "start": 29880540,
+        "end": 29880600,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-24T12:00:00+03:00",
+        "allocation": [
+          [
+            "y2-1",
+            "h2"
+          ],
+          [
+            "y2-2",
+            "h2"
+          ],
+          [
+            "y2-3",
+            "h2"
+          ]
+        ]
+      },
+      {
+        "id": "E:3",
+        "pattern": "E",
+        "start": 29890680,
+        "end": 29890740,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-31T12:00:00+02:00",
+        "allocation": [
+          [
+            "y2-1",
+            "h2"
+          ],
+          [
+            "y2-2",
+            "h2"
+          ],
+          [
+            "y2-3",
+            "h2"
+          ]
+        ]
+      },
+      {
+        "id": "F:1",
+        "pattern": "F",
+        "start": 29870610,
+        "end": 29870670,
+        "rooms": [
+          "l1"
+        ],
+        "local": "2026-10-17T14:30:00+03:00",
+        "allocation": [
+          [
+            "y3-1",
+            "l1"
+          ],
+          [
+            "y3-2",
+            "l1"
+          ],
+          [
+            "y3-3",
+            "l1"
+          ]
+        ]
+      },
+      {
+        "id": "F:2",
+        "pattern": "F",
+        "start": 29880690,
+        "end": 29880750,
+        "rooms": [
+          "l1"
+        ],
+        "local": "2026-10-24T14:30:00+03:00",
+        "allocation": [
+          [
+            "y3-1",
+            "l1"
+          ],
+          [
+            "y3-2",
+            "l1"
+          ],
+          [
+            "y3-3",
+            "l1"
+          ]
+        ]
+      },
+      {
+        "id": "F:3",
+        "pattern": "F",
+        "start": 29890830,
+        "end": 29890890,
+        "rooms": [
+          "l1"
+        ],
+        "local": "2026-10-31T14:30:00+02:00",
+        "allocation": [
+          [
+            "y3-1",
+            "l1"
+          ],
+          [
+            "y3-2",
+            "l1"
+          ],
+          [
+            "y3-3",
+            "l1"
+          ]
+        ]
+      },
+      {
+        "id": "G:1",
+        "pattern": "G",
+        "start": 29870670,
+        "end": 29870730,
+        "rooms": [
+          "l1"
+        ],
+        "local": "2026-10-17T15:30:00+03:00",
+        "allocation": [
+          [
+            "y1-1",
+            "l1"
+          ],
+          [
+            "y1-2",
+            "l1"
+          ],
+          [
+            "y1-3",
+            "l1"
+          ]
+        ]
+      },
+      {
+        "id": "G:2",
+        "pattern": "G",
+        "start": 29880750,
+        "end": 29880810,
+        "rooms": [
+          "l1"
+        ],
+        "local": "2026-10-24T15:30:00+03:00",
+        "allocation": [
+          [
+            "y1-1",
+            "l1"
+          ],
+          [
+            "y1-2",
+            "l1"
+          ],
+          [
+            "y1-3",
+            "l1"
+          ]
+        ]
+      },
+      {
+        "id": "G:3",
+        "pattern": "G",
+        "start": 29890890,
+        "end": 29890950,
+        "rooms": [
+          "l1"
+        ],
+        "local": "2026-10-31T15:30:00+02:00",
+        "allocation": [
+          [
+            "y1-1",
+            "l1"
+          ],
+          [
+            "y1-2",
+            "l1"
+          ],
+          [
+            "y1-3",
+            "l1"
+          ]
+        ]
+      },
+      {
+        "id": "H:1",
+        "pattern": "H",
+        "start": 29870700,
+        "end": 29870760,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-17T16:00:00+03:00",
+        "allocation": [
+          [
+            "y4-1",
+            "h2"
+          ],
+          [
+            "y4-2",
+            "h2"
+          ],
+          [
+            "y4-3",
+            "h2"
+          ]
+        ]
+      },
+      {
+        "id": "H:2",
+        "pattern": "H",
+        "start": 29880780,
+        "end": 29880840,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-24T16:00:00+03:00",
+        "allocation": [
+          [
+            "y4-1",
+            "h2"
+          ],
+          [
+            "y4-2",
+            "h2"
+          ],
+          [
+            "y4-3",
+            "h2"
+          ]
+        ]
+      },
+      {
+        "id": "H:3",
+        "pattern": "H",
+        "start": 29890920,
+        "end": 29890980,
+        "rooms": [
+          "h2"
+        ],
+        "local": "2026-10-31T16:00:00+02:00",
+        "allocation": [
+          [
+            "y4-1",
+            "h2"
+          ],
+          [
+            "y4-2",
+            "h2"
+          ],
+          [
+            "y4-3",
+            "h2"
+          ]
+        ]
+      }
+    ]
+  },
+  "broader": {
+    "status": "OPTIMAL",
+    "minimum_proven": true,
+    "requested": [
+      "A",
+      "B"
+    ],
+    "additional": [
+      "E"
+    ],
+    "preview": {
+      "revision": 1,
+      "input_revision": 0,
+      "scope": "whole_weekly_pattern",
+      "changed": [
+        "A",
+        "B",
+        "E"
+      ],
+      "changed_occurrences": [
+        "A:1",
+        "A:2",
+        "A:3",
+        "B:1",
+        "B:2",
+        "B:3",
+        "E:1",
+        "E:2",
+        "E:3"
+      ],
+      "affected_occurrences": 9,
+      "violations": [],
+      "placements": [
+        [
+          "A",
+          {
+            "id": "A",
+            "label": "برمجة 1",
+            "kind": "محاضرة",
+            "year": 1,
+            "start": 120,
+            "end": 240,
+            "rooms": [
+              "h1"
+            ],
+            "duration": 120,
+            "years": [
+              1
+            ],
+            "professors": [
+              "p1"
+            ],
+            "room_options": [
+              [
+                "h1"
+              ],
+              [
+                "h2"
+              ]
+            ],
+            "day": 5,
+            "week_pattern": "all",
+            "occurrence_count": 3,
+            "occurrence_ids": [
+              "A:1",
+              "A:2",
+              "A:3"
+            ]
+          }
+        ],
+        [
+          "B",
+          {
+            "id": "B",
+            "label": "هياكل بيانات",
+            "kind": "محاضرة",
+            "year": 2,
+            "start": 0,
+            "end": 60,
+            "rooms": [
+              "h2"
+            ],
+            "duration": 60,
+            "years": [
+              1,
+              2
+            ],
+            "professors": [
+              "p2"
+            ],
+            "room_options": [
+              [
+                "h1"
+              ],
+              [
+                "h2"
+              ]
+            ],
+            "day": 5,
+            "week_pattern": "all",
+            "occurrence_count": 3,
+            "occurrence_ids": [
+              "B:1",
+              "B:2",
+              "B:3"
+            ]
+          }
+        ],
+        [
+          "C",
+          {
+            "id": "C",
+            "label": "قواعد بيانات",
+            "kind": "محاضرة",
+            "year": 3,
+            "start": 240,
+            "end": 330,
+            "rooms": [
+              "h2"
+            ],
+            "duration": 90,
+            "years": [
+              3
+            ],
+            "professors": [
+              "p1"
+            ],
+            "room_options": [
+              [
+                "h1"
+              ],
+              [
+                "h2"
+              ]
+            ],
+            "day": 5,
+            "week_pattern": "even",
+            "occurrence_count": 1,
+            "occurrence_ids": [
+              "C:2"
+            ]
+          }
+        ],
+        [
+          "D",
+          {
+            "id": "D",
+            "label": "ذكاء اصطناعي",
+            "kind": "معمل",
+            "year": 4,
+            "start": 120,
+            "end": 180,
+            "rooms": [
+              "l1"
+            ],
+            "duration": 60,
+            "years": [
+              4
+            ],
+            "professors": [
+              "p3"
+            ],
+            "room_options": [
+              [
+                "l1"
+              ]
+            ],
+            "day": 5,
+            "week_pattern": "odd",
+            "occurrence_count": 2,
+            "occurrence_ids": [
+              "D:1",
+              "D:3"
+            ]
+          }
+        ],
+        [
+          "E",
+          {
+            "id": "E",
+            "label": "رياضيات حاسوبية",
+            "kind": "محاضرة",
+            "year": 2,
+            "start": 60,
+            "end": 120,
+            "rooms": [
+              "h2"
+            ],
+            "duration": 60,
+            "years": [
+              2
+            ],
+            "professors": [
+              "p1"
+            ],
+            "room_options": [
+              [
+                "h1"
+              ],
+              [
+                "h2"
+              ]
+            ],
+            "day": 5,
+            "week_pattern": "all",
+            "occurrence_count": 3,
+            "occurrence_ids": [
+              "E:1",
+              "E:2",
+              "E:3"
+            ]
+          }
+        ],
+        [
+          "F",
+          {
+            "id": "F",
+            "label": "قواعد بيانات",
+            "kind": "معمل",
+            "year": 3,
+            "start": 330,
+            "end": 390,
+            "rooms": [
+              "l1"
+            ],
+            "duration": 60,
+            "years": [
+              3
+            ],
+            "professors": [
+              "p2"
+            ],
+            "room_options": [
+              [
+                "l1"
+              ]
+            ],
+            "day": 5,
+            "week_pattern": "all",
+            "occurrence_count": 3,
+            "occurrence_ids": [
+              "F:1",
+              "F:2",
+              "F:3"
+            ]
+          }
+        ],
+        [
+          "G",
+          {
+            "id": "G",
+            "label": "برمجة 1",
+            "kind": "معمل",
+            "year": 1,
+            "start": 390,
+            "end": 450,
+            "rooms": [
+              "l1"
+            ],
+            "duration": 60,
+            "years": [
+              1
+            ],
+            "professors": [
+              "p3"
+            ],
+            "room_options": [
+              [
+                "l1"
+              ]
+            ],
+            "day": 5,
+            "week_pattern": "all",
+            "occurrence_count": 3,
+            "occurrence_ids": [
+              "G:1",
+              "G:2",
+              "G:3"
+            ]
+          }
+        ],
+        [
+          "H",
+          {
+            "id": "H",
+            "label": "شبكات متقدمة",
+            "kind": "محاضرة",
+            "year": 4,
+            "start": 420,
+            "end": 480,
+            "rooms": [
+              "h2"
+            ],
+            "duration": 60,
+            "years": [
+              4
+            ],
+            "professors": [
+              "p1"
+            ],
+            "room_options": [
+              [
+                "h1"
+              ],
+              [
+                "h2"
+              ]
+            ],
+            "day": 5,
+            "week_pattern": "all",
+            "occurrence_count": 3,
+            "occurrence_ids": [
+              "H:1",
+              "H:2",
+              "H:3"
+            ]
+          }
+        ]
+      ]
+    },
+    "after": {
+      "synthetic": true,
+      "scope": "whole_weekly_pattern",
+      "timezone": "Africa/Cairo",
+      "revision": 2,
+      "input_revision": 0,
+      "valid": true,
+      "locked": [
+        "H"
+      ],
+      "can_undo": true,
+      "can_redo": false,
+      "events": [
+        {
+          "id": "A",
+          "label": "برمجة 1",
+          "kind": "محاضرة",
+          "year": 1,
+          "start": 120,
+          "end": 240,
+          "rooms": [
+            "h1"
+          ],
+          "duration": 120,
+          "years": [
+            1
+          ],
+          "professors": [
+            "p1"
+          ],
+          "room_options": [
+            [
+              "h1"
+            ],
+            [
+              "h2"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "all",
+          "occurrence_count": 3,
+          "occurrence_ids": [
+            "A:1",
+            "A:2",
+            "A:3"
+          ]
+        },
+        {
+          "id": "B",
+          "label": "هياكل بيانات",
+          "kind": "محاضرة",
+          "year": 2,
+          "start": 0,
+          "end": 60,
+          "rooms": [
+            "h2"
+          ],
+          "duration": 60,
+          "years": [
+            1,
+            2
+          ],
+          "professors": [
+            "p2"
+          ],
+          "room_options": [
+            [
+              "h1"
+            ],
+            [
+              "h2"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "all",
+          "occurrence_count": 3,
+          "occurrence_ids": [
+            "B:1",
+            "B:2",
+            "B:3"
+          ]
+        },
+        {
+          "id": "C",
+          "label": "قواعد بيانات",
+          "kind": "محاضرة",
+          "year": 3,
+          "start": 240,
+          "end": 330,
+          "rooms": [
+            "h2"
+          ],
+          "duration": 90,
+          "years": [
+            3
+          ],
+          "professors": [
+            "p1"
+          ],
+          "room_options": [
+            [
+              "h1"
+            ],
+            [
+              "h2"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "even",
+          "occurrence_count": 1,
+          "occurrence_ids": [
+            "C:2"
+          ]
+        },
+        {
+          "id": "D",
+          "label": "ذكاء اصطناعي",
+          "kind": "معمل",
+          "year": 4,
+          "start": 120,
+          "end": 180,
+          "rooms": [
+            "l1"
+          ],
+          "duration": 60,
+          "years": [
+            4
+          ],
+          "professors": [
+            "p3"
+          ],
+          "room_options": [
+            [
+              "l1"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "odd",
+          "occurrence_count": 2,
+          "occurrence_ids": [
+            "D:1",
+            "D:3"
+          ]
+        },
+        {
+          "id": "E",
+          "label": "رياضيات حاسوبية",
+          "kind": "محاضرة",
+          "year": 2,
+          "start": 60,
+          "end": 120,
+          "rooms": [
+            "h2"
+          ],
+          "duration": 60,
+          "years": [
+            2
+          ],
+          "professors": [
+            "p1"
+          ],
+          "room_options": [
+            [
+              "h1"
+            ],
+            [
+              "h2"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "all",
+          "occurrence_count": 3,
+          "occurrence_ids": [
+            "E:1",
+            "E:2",
+            "E:3"
+          ]
+        },
+        {
+          "id": "F",
+          "label": "قواعد بيانات",
+          "kind": "معمل",
+          "year": 3,
+          "start": 330,
+          "end": 390,
+          "rooms": [
+            "l1"
+          ],
+          "duration": 60,
+          "years": [
+            3
+          ],
+          "professors": [
+            "p2"
+          ],
+          "room_options": [
+            [
+              "l1"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "all",
+          "occurrence_count": 3,
+          "occurrence_ids": [
+            "F:1",
+            "F:2",
+            "F:3"
+          ]
+        },
+        {
+          "id": "G",
+          "label": "برمجة 1",
+          "kind": "معمل",
+          "year": 1,
+          "start": 390,
+          "end": 450,
+          "rooms": [
+            "l1"
+          ],
+          "duration": 60,
+          "years": [
+            1
+          ],
+          "professors": [
+            "p3"
+          ],
+          "room_options": [
+            [
+              "l1"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "all",
+          "occurrence_count": 3,
+          "occurrence_ids": [
+            "G:1",
+            "G:2",
+            "G:3"
+          ]
+        },
+        {
+          "id": "H",
+          "label": "شبكات متقدمة",
+          "kind": "محاضرة",
+          "year": 4,
+          "start": 420,
+          "end": 480,
+          "rooms": [
+            "h2"
+          ],
+          "duration": 60,
+          "years": [
+            4
+          ],
+          "professors": [
+            "p1"
+          ],
+          "room_options": [
+            [
+              "h1"
+            ],
+            [
+              "h2"
+            ]
+          ],
+          "day": 5,
+          "week_pattern": "all",
+          "occurrence_count": 3,
+          "occurrence_ids": [
+            "H:1",
+            "H:2",
+            "H:3"
+          ]
+        }
+      ],
+      "rooms": {
+        "h1": "قاعة 1",
+        "h2": "قاعة 2",
+        "l1": "معمل 1"
+      },
+      "professors": {
+        "p1": "مدرس أ",
+        "p2": "مدرس ب",
+        "p3": "مدرس ج"
+      },
+      "swaps": {
+        "revision": 2,
+        "input_revision": 0,
+        "selected": "A",
+        "mode": "time_only",
+        "targets": [
+          {
+            "occurrence": "B",
+            "status": "blocked",
+            "reasons": [
+              {
+                "code": "professor_overlap",
+                "occurrences": [
+                  "A",
+                  "E"
+                ],
+                "resource": "p1",
+                "detail": ""
+              }
+            ]
+          },
+          {
+            "occurrence": "C",
+            "status": "valid",
+            "reasons": []
+          },
+          {
+            "occurrence": "D",
+            "status": "unchanged",
+            "reasons": []
+          },
+          {
+            "occurrence": "E",
+            "status": "blocked",
+            "reasons": [
+              {
+                "code": "professor_overlap",
+                "occurrences": [
+                  "A",
+                  "E"
+                ],
+                "resource": "p1",
+                "detail": ""
+              }
+            ]
+          },
+          {
+            "occurrence": "F",
+            "status": "blocked",
+            "reasons": [
+              {
+                "code": "professor_overlap",
+                "occurrences": [
+                  "A",
+                  "H"
+                ],
+                "resource": "p1",
+                "detail": ""
+              },
+              {
+                "code": "room_overlap",
+                "occurrences": [
+                  "D",
+                  "F"
+                ],
+                "resource": "l1",
+                "detail": ""
+              },
+              {
+                "code": "student_overlap",
+                "occurrences": [
+                  "A",
+                  "G"
+                ],
+                "resource": "y1-1",
+                "detail": ""
+              },
+              {
+                "code": "student_overlap",
+                "occurrences": [
+                  "A",
+                  "G"
+                ],
+                "resource": "y1-2",
+                "detail": ""
+              },
+              {
+                "code": "student_overlap",
+                "occurrences": [
+                  "A",
+                  "G"
+                ],
+                "resource": "y1-3",
+                "detail": ""
+              }
+            ]
+          },
+          {
+            "occurrence": "G",
+            "status": "blocked",
+            "reasons": [
+              {
+                "code": "professor_overlap",
+                "occurrences": [
+                  "A",
+                  "H"
+                ],
+                "resource": "p1",
+                "detail": ""
+              },
+              {
+                "code": "professor_overlap",
+                "occurrences": [
+                  "D",
+                  "G"
+                ],
+                "resource": "p3",
+                "detail": ""
+              },
+              {
+                "code": "room_overlap",
+                "occurrences": [
+                  "D",
+                  "G"
+                ],
+                "resource": "l1",
+                "detail": ""
+              }
+            ]
+          },
+          {
+            "occurrence": "H",
+            "status": "blocked",
+            "reasons": [
+              {
+                "code": "locked",
+                "occurrences": [
+                  "H"
+                ],
+                "resource": "",
+                "detail": ""
+              },
+              {
+                "code": "student_overlap",
+                "occurrences": [
+                  "A",
+                  "G"
+                ],
+                "resource": "y1-1",
+                "detail": ""
+              },
+              {
+                "code": "student_overlap",
+                "occurrences": [
+                  "A",
+                  "G"
+                ],
+                "resource": "y1-2",
+                "detail": ""
+              },
+              {
+                "code": "student_overlap",
+                "occurrences": [
+                  "A",
+                  "G"
+                ],
+                "resource": "y1-3",
+                "detail": ""
+              },
+              {
+                "code": "student_overlap",
+                "occurrences": [
+                  "D",
+                  "H"
+                ],
+                "resource": "y4-1",
+                "detail": ""
+              },
+              {
+                "code": "student_overlap",
+                "occurrences": [
+                  "D",
+                  "H"
+                ],
+                "resource": "y4-2",
+                "detail": ""
+              },
+              {
+                "code": "student_overlap",
+                "occurrences": [
+                  "D",
+                  "H"
+                ],
+                "resource": "y4-3",
+                "detail": ""
+              }
+            ]
+          }
+        ],
+        "scope": "whole_weekly_pattern"
+      },
+      "occurrences": [
+        {
+          "id": "A:1",
+          "pattern": "A",
+          "start": 29870400,
+          "end": 29870520,
+          "rooms": [
+            "h1"
+          ],
+          "local": "2026-10-17T11:00:00+03:00",
+          "allocation": [
+            [
+              "y1-1",
+              "h1"
+            ],
+            [
+              "y1-2",
+              "h1"
+            ],
+            [
+              "y1-3",
+              "h1"
+            ]
+          ]
+        },
+        {
+          "id": "A:2",
+          "pattern": "A",
+          "start": 29880480,
+          "end": 29880600,
+          "rooms": [
+            "h1"
+          ],
+          "local": "2026-10-24T11:00:00+03:00",
+          "allocation": [
+            [
+              "y1-1",
+              "h1"
+            ],
+            [
+              "y1-2",
+              "h1"
+            ],
+            [
+              "y1-3",
+              "h1"
+            ]
+          ]
+        },
+        {
+          "id": "A:3",
+          "pattern": "A",
+          "start": 29890620,
+          "end": 29890740,
+          "rooms": [
+            "h1"
+          ],
+          "local": "2026-10-31T11:00:00+02:00",
+          "allocation": [
+            [
+              "y1-1",
+              "h1"
+            ],
+            [
+              "y1-2",
+              "h1"
+            ],
+            [
+              "y1-3",
+              "h1"
+            ]
+          ]
+        },
+        {
+          "id": "B:1",
+          "pattern": "B",
+          "start": 29870280,
+          "end": 29870340,
+          "rooms": [
+            "h2"
+          ],
+          "local": "2026-10-17T09:00:00+03:00",
+          "allocation": [
+            [
+              "y1-1",
+              "h2"
+            ],
+            [
+              "y2-1",
+              "h2"
+            ],
+            [
+              "y2-2",
+              "h2"
+            ],
+            [
+              "y2-3",
+              "h2"
+            ]
+          ]
+        },
+        {
+          "id": "B:2",
+          "pattern": "B",
+          "start": 29880360,
+          "end": 29880420,
+          "rooms": [
+            "h2"
+          ],
+          "local": "2026-10-24T09:00:00+03:00",
+          "allocation": [
+            [
+              "y1-1",
+              "h2"
+            ],
+            [
+              "y2-1",
+              "h2"
+            ],
+            [
+              "y2-2",
+              "h2"
+            ],
+            [
+              "y2-3",
+              "h2"
+            ]
+          ]
+        },
+        {
+          "id": "B:3",
+          "pattern": "B",
+          "start": 29890500,
+          "end": 29890560,
+          "rooms": [
+            "h2"
+          ],
+          "local": "2026-10-31T09:00:00+02:00",
+          "allocation": [
+            [
+              "y1-1",
+              "h2"
+            ],
+            [
+              "y2-1",
+              "h2"
+            ],
+            [
+              "y2-2",
+              "h2"
+            ],
+            [
+              "y2-3",
+              "h2"
+            ]
+          ]
+        },
+        {
+          "id": "C:2",
+          "pattern": "C",
+          "start": 29880600,
+          "end": 29880690,
+          "rooms": [
+            "h2"
+          ],
+          "local": "2026-10-24T13:00:00+03:00",
+          "allocation": [
+            [
+              "y3-1",
+              "h2"
+            ],
+            [
+              "y3-2",
+              "h2"
+            ],
+            [
+              "y3-3",
+              "h2"
+            ]
+          ]
+        },
+        {
+          "id": "D:1",
+          "pattern": "D",
+          "start": 29870400,
+          "end": 29870460,
+          "rooms": [
+            "l1"
+          ],
+          "local": "2026-10-17T11:00:00+03:00",
+          "allocation": [
+            [
+              "y4-1",
+              "l1"
+            ],
+            [
+              "y4-2",
+              "l1"
+            ],
+            [
+              "y4-3",
+              "l1"
+            ]
+          ]
+        },
+        {
+          "id": "D:3",
+          "pattern": "D",
+          "start": 29890620,
+          "end": 29890680,
+          "rooms": [
+            "l1"
+          ],
+          "local": "2026-10-31T11:00:00+02:00",
+          "allocation": [
+            [
+              "y4-1",
+              "l1"
+            ],
+            [
+              "y4-2",
+              "l1"
+            ],
+            [
+              "y4-3",
+              "l1"
+            ]
+          ]
+        },
+        {
+          "id": "E:1",
+          "pattern": "E",
+          "start": 29870340,
+          "end": 29870400,
+          "rooms": [
+            "h2"
+          ],
+          "local": "2026-10-17T10:00:00+03:00",
+          "allocation": [
+            [
+              "y2-1",
+              "h2"
+            ],
+            [
+              "y2-2",
+              "h2"
+            ],
+            [
+              "y2-3",
+              "h2"
+            ]
+          ]
+        },
+        {
+          "id": "E:2",
+          "pattern": "E",
+          "start": 29880420,
+          "end": 29880480,
+          "rooms": [
+            "h2"
+          ],
+          "local": "2026-10-24T10:00:00+03:00",
+          "allocation": [
+            [
+              "y2-1",
+              "h2"
+            ],
+            [
+              "y2-2",
+              "h2"
+            ],
+            [
+              "y2-3",
+              "h2"
+            ]
+          ]
+        },
+        {
+          "id": "E:3",
+          "pattern": "E",
+          "start": 29890560,
+          "end": 29890620,
+          "rooms": [
+            "h2"
+          ],
+          "local": "2026-10-31T10:00:00+02:00",
+          "allocation": [
+            [
+              "y2-1",
+              "h2"
+            ],
+            [
+              "y2-2",
+              "h2"
+            ],
+            [
+              "y2-3",
+              "h2"
+            ]
+          ]
+        },
+        {
+          "id": "F:1",
+          "pattern": "F",
+          "start": 29870610,
+          "end": 29870670,
+          "rooms": [
+            "l1"
+          ],
+          "local": "2026-10-17T14:30:00+03:00",
+          "allocation": [
+            [
+              "y3-1",
+              "l1"
+            ],
+            [
+              "y3-2",
+              "l1"
+            ],
+            [
+              "y3-3",
+              "l1"
+            ]
+          ]
+        },
+        {
+          "id": "F:2",
+          "pattern": "F",
+          "start": 29880690,
+          "end": 29880750,
+          "rooms": [
+            "l1"
+          ],
+          "local": "2026-10-24T14:30:00+03:00",
+          "allocation": [
+            [
+              "y3-1",
+              "l1"
+            ],
+            [
+              "y3-2",
+              "l1"
+            ],
+            [
+              "y3-3",
+              "l1"
+            ]
+          ]
+        },
+        {
+          "id": "F:3",
+          "pattern": "F",
+          "start": 29890830,
+          "end": 29890890,
+          "rooms": [
+            "l1"
+          ],
+          "local": "2026-10-31T14:30:00+02:00",
+          "allocation": [
+            [
+              "y3-1",
+              "l1"
+            ],
+            [
+              "y3-2",
+              "l1"
+            ],
+            [
+              "y3-3",
+              "l1"
+            ]
+          ]
+        },
+        {
+          "id": "G:1",
+          "pattern": "G",
+          "start": 29870670,
+          "end": 29870730,
+          "rooms": [
+            "l1"
+          ],
+          "local": "2026-10-17T15:30:00+03:00",
+          "allocation": [
+            [
+              "y1-1",
+              "l1"
+            ],
+            [
+              "y1-2",
+              "l1"
+            ],
+            [
+              "y1-3",
+              "l1"
+            ]
+          ]
+        },
+        {
+          "id": "G:2",
+          "pattern": "G",
+          "start": 29880750,
+          "end": 29880810,
+          "rooms": [
+            "l1"
+          ],
+          "local": "2026-10-24T15:30:00+03:00",
+          "allocation": [
+            [
+              "y1-1",
+              "l1"
+            ],
+            [
+              "y1-2",
+              "l1"
+            ],
+            [
+              "y1-3",
+              "l1"
+            ]
+          ]
+        },
+        {
+          "id": "G:3",
+          "pattern": "G",
+          "start": 29890890,
+          "end": 29890950,
+          "rooms": [
+            "l1"
+          ],
+          "local": "2026-10-31T15:30:00+02:00",
+          "allocation": [
+            [
+              "y1-1",
+              "l1"
+            ],
+            [
+              "y1-2",
+              "l1"
+            ],
+            [
+              "y1-3",
+              "l1"
+            ]
+          ]
+        },
+        {
+          "id": "H:1",
+          "pattern": "H",
+          "start": 29870700,
+          "end": 29870760,
+          "rooms": [
+            "h2"
+          ],
+          "local": "2026-10-17T16:00:00+03:00",
+          "allocation": [
+            [
+              "y4-1",
+              "h2"
+            ],
+            [
+              "y4-2",
+              "h2"
+            ],
+            [
+              "y4-3",
+              "h2"
+            ]
+          ]
+        },
+        {
+          "id": "H:2",
+          "pattern": "H",
+          "start": 29880780,
+          "end": 29880840,
+          "rooms": [
+            "h2"
+          ],
+          "local": "2026-10-24T16:00:00+03:00",
+          "allocation": [
+            [
+              "y4-1",
+              "h2"
+            ],
+            [
+              "y4-2",
+              "h2"
+            ],
+            [
+              "y4-3",
+              "h2"
+            ]
+          ]
+        },
+        {
+          "id": "H:3",
+          "pattern": "H",
+          "start": 29890920,
+          "end": 29890980,
+          "rooms": [
+            "h2"
+          ],
+          "local": "2026-10-31T16:00:00+02:00",
+          "allocation": [
+            [
+              "y4-1",
+              "h2"
+            ],
+            [
+              "y4-2",
+              "h2"
+            ],
+            [
+              "y4-3",
+              "h2"
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}

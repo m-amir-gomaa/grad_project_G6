@@ -1,61 +1,38 @@
-# Minimal project specification
+# Minimal specification and algorithms
 
-## Scope
+## Inputs and output
 
-Generate, validate, and repair faculty schedules for lectures, sections/tutorials, labs, midterms, written finals, practical/computer exams, oral exams, and applicable retake/deferred sittings. Support first, second, and summer terms with their own calendars. Use the [Tanta timetable formats](TIMETABLE-FORMAT.md) by default.
+One saved college setup. The setter enters courses, their required components, durations/frequencies, assigned professors, rooms/capacities, and calendar/availability manually. Student records supply only registered courses; their year comes from the chosen list. No student chooses a professor.
 
-University setup contains a simple building layout. A geometric floor-plan editor, CAD/BIM processing, and route modelling are outside this initial specification.
+A course can require multiple lectures, sections, labs, or assessment components. Use explicitly entered teaching-week frequencies or assessment counts/windows. Preserve first, second, and summer terms. See [confirmed scope](SCOPE-REVISION.md).
 
-## Building layout
-
-```text
-University
-  Building
-    Floor
-      Room
-```
-
-Store stable IDs and display names for each level. A room contains its type (lecture hall, classroom, laboratory), seated/exam/computer capacities, availability intervals, and active/closed state. Scope every record to its university. Staff accounts access the university's saved layout through membership.
-
-Record layout changes as effective revisions. Renaming or closing a room preserves its identity and earlier schedules; splitting or merging rooms creates new identities and retires the predecessors. Unconfirmed PDF labels remain import candidates until mapped to a building, floor, and physical room. Preserve source labels as aliases.
-
-## Scheduling inputs
-
-- Term dates, teaching weeks, odd/even patterns, assessment windows, and holidays.
-- Course offerings, activity types/durations, required sessions, and assigned staff with availability.
-- Pseudonymous student registrations, teaching-section allocations, and assessment candidates or authorized batches.
-- Confirmed rooms, capacities, and existing reservations.
-
-Student membership follows registrations and assigned alternatives. A student attends their assigned lab section, and each required exam component, including courses taken from another level.
+Generate all four years together. Output is validated schedules exportable to PDF, PNG, or JPEG. There is no posting, approval, official integration, or multi-university account model.
 
 ## Data structures
 
-| Structure | Contents and purpose |
+| Structure | Purpose |
 |---|---|
-| University-scoped ID maps | Buildings, floors, rooms, offerings, students, and staff; fast lookup without identifying a room by its name alone. |
-| Layout revision records | Effective room configuration and the version referenced by each schedule. |
-| Sorted interval lists | Room/staff openings, closures, reservations, and dated assignments. Intervals use `[start, end)`. |
-| Registration indexes and participant sets | Student → required activities; activity → students/staff. Set intersections identify shared participants. |
-| Conflict graph | Activities as vertices; edges connect activities sharing students or staff. Shared-student counts can weight edges. |
-| Activity and placement records | Type, term, duration, recurrence; candidate date/time, room set, and candidate-to-room allocation. |
-| Schedule map | Activity occurrence → selected placement, with previous assignments and locked events for repair. |
+| ID maps | Stable course, component, professor, room, and internal student IDs. Names are display labels, not join keys. |
+| Registration sets and inverted indexes | Student → registered courses; course → students. Student year is display/import context and never the sole test of conflict. |
+| Component records | Course, type, duration, frequency, fixed staff, required room type, and applicable term/window. |
+| Resource records and interval lists | Room type/capacity, optional building/floor labels, professor availability, openings/closures/reservations. Intervals use `[start, end)`. |
+| Recurring series and active-week maps | A recurring slot's dated members, academic week numbers, odd/even pattern, local weekday/time, room group and timezone. Multiple weekly sessions are distinct slots. Dated exams are singleton appointments. |
+| Conflict graph | Fixed cohorts sharing students or staff. Conditional group membership is represented in the solver rather than treating every alternative group as mandatory. |
+| Placement and group variables | Eligible dated time/room choices; section/lab/batch membership when a component needs multiple groups. |
+| Saved result | Assignments, group allocations, validation results, input snapshot, and input revision for stale-result detection. |
+| Edit requests, proposals and history stacks | Whole-pattern targets expanded to dated occurrences, swap mode, immutable constraints, pins, schedule/input revisions, server-held broader proposals, and atomic undo/redo snapshots. |
+| Dynamic swap neighborhood | An edge represents an independently checked swap for one specific mode, scope and revision; it is distinct from the shared-participant conflict graph. |
 
-## Algorithms
+## Algorithm
 
-| Stage | Algorithm |
-|---|---|
-| Import locations | Extract positioned PDF text; use Arabic/English OCR for image pages. Normalize labels and retain source/page evidence. Reconcile aliases before creating physical rooms. |
-| Form activities | Expand teaching patterns into dated occurrences, keeping the same pattern within an odd/even week group except for explicit dated exceptions. Form the required exam sittings or appointments. |
-| Find available slots | Sort and merge opening intervals, subtract closures/reservations, then enumerate starts that fit the full duration and preparation/reset time. |
-| Build conflicts | Use the inverted registration index to connect required activities sharing students; add staff conflicts. Avoid treating every alternative section as mandatory. |
-| Generate placement domains | Filter time/room alternatives by availability, type, capacity, calendar, and locks. Written exams may use simultaneous rooms; practical batches and oral appointments follow their supplied policies. |
-| Assign placements | Use **OR-Tools CP-SAT** with one Boolean variable per eligible placement. Choose exactly one placement per required occurrence; forbid overlapping placements sharing a room, student, or staff member. |
-| Improve and repair | Keep hard constraints mandatory. For revisions, minimize moved published activities before optimizing student gaps, exam-spacing preferences, and room use. Retain authorized locks and save a new schedule version. |
+1. **Validate inputs.** Resolve course references, retain separate student records even with identical course lists, and reject missing duration, frequency, staff, capacity, or availability. Do not fill gaps from PDFs.
+2. **Expand requirements.** Create recurring teaching slots and their dated occurrences, or dated examination sittings, from manually entered frequencies, durations and calendar. Retain academic odd/even weeks and calendar exceptions; do not infer parity from ISO week numbers. Convert each local start independently to UTC so local times survive daylight-saving changes. For sections/labs/batches, represent alternative groups while requiring each enrolled student to attend one complete group of each required component. Group allocation uses registered students and entered capacities; it does not require another student input field or a new professor choice.
+3. **Generate eligible placements.** Sort/merge openings, subtract closures and occupied intervals, and retain starts/rooms that fit the entire entered duration and resource type. Use integer-minute times without rounding durations to a standard two-hour period.
+4. **Solve jointly with OR-Tools CP-SAT.** Placement variables select time/room choices; membership variables allocate students to component groups when necessary. Require every necessary occurrence, fixed professor assignment, capacity, and availability. Forbid overlapping room use, overlapping assigned professors, and overlapping required attendance for every student, including across years. Enforce the entered frequency consistently for each group's members. Report configured group/domain bounds with the technical result; infeasibility applies to the modeled bounds.
+5. **Check independently.** Recompute registration coverage, exact durations/frequencies, group membership, capacities, and all room/staff/student overlaps across the four years and overlapping saved scopes. Export only a complete valid result from the current inputs.
+6. **Edit within constraints.** Expand whole-pattern moves/swaps across their own active weeks, preserving duration, students and professors. Audit the complete candidate across all years. If blocked, offer a CP-SAT broader arrangement with requested targets and pins fixed, minimizing additional pattern changes. Review every extra change before Apply. Recheck revisions/constraints; commit all or nothing with one undo entry. Show calculated direct partners and blocked reasons. [Exact editing contract](EDITING.md).
+7. **Render.** Filter the same current validated edited result by year. Generate PDF and page images using the selected [timetable layout](TIMETABLE-FORMAT.md), excluding application controls.
 
-The conflict graph can be constructed in `O(sum(d_s²))`, where `d_s` is the number of relevant activities required by student `s`; interval sorting takes `O(n log n)`. CP-SAT search is time-limited and reports feasible, optimal, infeasible, invalid, or unresolved outcomes. A timeout does not prove impossibility. [CP-SAT documentation](https://developers.google.com/optimization/cp/cp_solver).
+Inverted-index graph construction takes `O(sum(d_s²))` for fixed required activities per student; interval sorting is `O(n log n)`. Optimization is bounded by a configurable internal time limit. Distinguish feasible/optimal, infeasible, invalid, cancelled/failed execution, and unresolved search. A timeout is not proof of impossibility. [OR-Tools statuses](https://developers.google.com/optimization/cp/cp_solver).
 
-## Required checks
-
-Every required activity and exam candidate must be allocated. Validate room/student/staff overlaps, effective room state, capacity, duration, required contact time, section membership, and mandatory exam rules before publishing. Keep incomplete results as drafts with their unresolved activities listed. Check both newly generated and manually edited schedules.
-
-Completion includes all three term types, the required teaching/exam categories, and a room-change scenario that preserves the earlier timetable and repairs affected assignments. Measure coverage, mandatory violations, solve/revision time, and moved activities using a common validated input snapshot.
+The earlier generation pilot predates this scope: joint automatic group membership, simplified records, and the export application still need implementation. The separate dated/whole-pattern editor, bounded broader rearrangement and synthetic interactive demonstrator are implemented and tested; they do not complete those pending application layers.

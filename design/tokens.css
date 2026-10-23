@@ -1,0 +1,18 @@
+/* G6 / Simple tokens · Light */
+:root {
+  --color-canvas: #F7F8FA;
+  --color-surface: #FFFFFF;
+  --color-ink: #202939;
+  --color-secondary: #586476;
+  --color-border: #DBE1EA;
+  --color-controlborder: #8491A5;
+  --color-action: #315DF5;
+  --color-subtle: #EEF2FF;
+  --color-success: #246344;
+  --color-successsurface: #EDF8F0;
+  --color-warning: #80510B;
+  --color-warningsurface: #FFF4DC;
+  --color-error: #A83138;
+  --color-errorsurface: #FCECEE;
+  --color-focus: #2453DB;
+}

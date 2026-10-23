@@ -1,0 +1,31 @@
+{
+  "result": "passed",
+  "fixtures": "synthetic; 8 weekly patterns, 21 dated occurrences; academic odd/even weeks; all four years; cross-year registration",
+  "checks": [
+    "graph colours from same-revision engine results",
+    "blocked preview and server rejection",
+    "unequal-duration atomic swap",
+    "whole-pattern expansion",
+    "odd/even calendar views",
+    "broader proposal does not mutate before Apply",
+    "minimal additional pattern highlighted",
+    "nine dated changes committed atomically",
+    "pinned pattern preserved",
+    "whole proposal undone in one step",
+    "stored stale proposal rejected",
+    "unchanged unrelated classes",
+    "undo and redo",
+    "validated move",
+    "stale edit rejected",
+    "unchanged targets stay neutral",
+    "out-of-order preview ignored",
+    "mobile layout capture",
+    "no browser runtime errors"
+  ],
+  "screenshots": [
+    "editing-graph.png",
+    "editing-calendar.png",
+    "editing-mobile.png",
+    "editing-broader.png"
+  ]
+}

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>جدول · تجربة التعديل</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<header><div class="brand">جدول<span>مساحة التعديل</span></div><span class="demo-label">مثال تفاعلي · بيانات مصطنعة</span><div class="history"><button id="undo" disabled>تراجع</button><button id="redo" disabled>إعادة</button></div></header>
+<main>
+  <div class="intro"><div><p class="eyebrow">بعد إنشاء الجدول</p><h1>عدّل بثقة.</h1><p>اختر حصة، افحص البدائل، ثم طبّق التغيير الذي يناسبك.</p></div><div class="valid-state" id="health"><span></span>الجدول مستوفٍ للقيود</div></div>
+  <div class="toolbar"><div class="segmented"><button id="calendar-tab" aria-pressed="true">الجدول</button><button id="graph-tab" aria-pressed="false">بدائل التبديل</button></div><select id="week-view" aria-label="عرض الأسابيع"><option value="odd">الأسابيع الفردية</option><option value="even">الأسابيع الزوجية</option></select><span class="period">السبت · السنوات الأربع</span><div class="legend"><span class="good-dot">متاح</span><span class="bad-dot">متعذر</span><span class="neutral-dot">مثبت / غير مفحوص</span></div></div>
+  <div class="workspace">
+    <section class="canvas" aria-label="مواعيد الحصص والبدائل">
+      <div id="calendar-view"><div class="axis"><span>السنة</span><div id="time-axis"></div></div><div id="calendar"></div><p class="canvas-note">كل السنوات محسوبة معاً. المادة المشتركة تبقى حصة واحدة، حتى لو حضرها طلاب من أكثر من سنة.</p></div>
+      <div id="graph-view" hidden><div class="graph-heading"><strong>ما الذي يمكن تبديله؟</strong><span id="target-summary"></span></div><svg id="graph" viewBox="0 0 960 640" role="group" aria-label="بدائل التبديل للحصة المختارة"></svg><p class="canvas-note">الخط يصف هذا التبديل فقط. البدائل يعاد حسابها بعد كل تغيير؛ وجود عدة خطوط خضراء لا يجيز تطبيقها معاً.</p></div>
+    </section>
+    <aside class="inspector" aria-label="تفاصيل الحصة والتعديل">
+      <div class="inspector-head"><span class="small-label">الحصة المختارة</span><button id="pin" class="text-button">تثبيت</button></div>
+      <select id="selected-course" class="course-selector" aria-label="الحصة المختارة"></select><p id="selected-detail" class="muted"></p><div class="original" id="selected-when"></div><p id="pattern-scope" class="scope-note">التعديل يشمل كل التكرارات في الفصل.</p>
+      <div class="segmented action-tabs"><button id="swap-tab" aria-pressed="true">تبديل</button><button id="move-tab" aria-pressed="false">نقل</button></div>
+      <div id="swap-controls"><label for="swap-mode">ماذا تريد تبديله؟</label><select id="swap-mode"><option value="time_only">المواعيد فقط</option><option value="time_and_rooms">الموعد والمكان</option></select><p class="hint">اختر الحصة البديلة من الجدول أو الرسم. مدة كل حصة ومدرسها وطلابها ثابتون.</p></div>
+      <form id="move-controls" hidden><label for="move-time">الموعد الجديد</label><input id="move-time" type="time" value="17:00" required><label for="move-room">المكان</label><select id="move-room"></select><button type="submit" class="secondary full">فحص النقل</button></form>
+      <div id="proposal" class="proposal empty"><span>اختر بديلاً لعرض النتيجة هنا.</span></div>
+      <button id="rearrange" class="secondary full" hidden>اقترح ترتيباً أوسع</button><button id="apply" class="primary full" disabled>تطبيق التعديل</button><button id="cancel" class="text-button full" hidden>إلغاء الاختيار</button>
+      <p class="inspector-foot">لا يتغير أي موعد قبل التطبيق. يظهر كل تغيير إضافي في المعاينة.</p>
+    </aside>
+  </div>
+  <div class="year-key"><span style="--year:#4D65D9">الأولى</span><span style="--year:#875CC7">الثانية</span><span style="--year:#25857B">الثالثة</span><span style="--year:#BA8025">الرابعة</span><span class="muted">اضغط اسم أي حصة لعرض تفاصيلها كاملة.</span></div>
+</main>
+<div id="toast" role="status" aria-live="polite" hidden></div>
+<script src="/editor.js"></script>
+</body></html>

@@ -1,0 +1,13 @@
+university_id,student_key,assessment_id,event_id
+synthetic-university,s-001,midterm,midterm-sitting
+synthetic-university,s-002,midterm,midterm-sitting
+synthetic-university,s-003,midterm,midterm-sitting
+synthetic-university,s-001,written,written-sitting
+synthetic-university,s-002,written,written-sitting
+synthetic-university,s-003,written,written-sitting
+synthetic-university,s-001,practical,practical-A
+synthetic-university,s-002,practical,practical-A
+synthetic-university,s-003,practical,practical-B
+synthetic-university,s-001,oral,oral-sitting
+synthetic-university,s-002,oral,oral-sitting
+synthetic-university,s-003,oral,oral-sitting
